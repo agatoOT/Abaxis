@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_icon-assets_ng_ic_users_18</name>
+   <tag></tag>
+   <elementGuidId>577b5475-c0f0-4e29-a5a0-953b78ecbcae</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-assets_ng_ic_users_18</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/nav[@class=&quot;navbar navbar-inverse header-abaxis&quot;]/div[@class=&quot;col-md-12 col-sm-12 col-xs-12 container container-abaxis&quot;]/div[@class=&quot;col-md-8 col-sm-8 col-xs-8&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[4]/a[1]/div[1]/i[@class=&quot;icon-assets_ng_ic_users_18&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>OpenBrowser</description>
+   <name>OpenBrowser</name>
+   <tag>FUSE_WEB</tag>
+   <comment></comment>
+   <testCaseGuid>b9bac8d7-079c-4beb-b2dd-99ae83bda771</testCaseGuid>
+</TestCaseEntity>
