@@ -2380,10 +2380,7 @@
   <message>End Test Suite : Test Suites/TS_Compleated</message>
   <nestedLevel>0</nestedLevel>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2018-09-06T11:39:54</date>
   <millis>1536226794928</millis>
