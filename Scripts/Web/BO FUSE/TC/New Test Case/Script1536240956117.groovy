@@ -19,14 +19,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.verifyElementText(findTestObject('WEB/BO FUSE/Page_VetScan FUSE - Backoffice/Page_VetScan FUSE - Backoffice/td_agatox'), 
-    'agatox')
-
-not_run: WebUI.click(findTestObject('WEB/BO FUSE/Page_VetScan FUSE - Backoffice/Page_VetScan FUSE - Backoffice/button_...'))
-
-not_run: WebUI.click(findTestObject('WEB/BO FUSE/Page_VetScan FUSE - Backoffice/Page_VetScan FUSE - Backoffice/i_icon-assets_ng_ic_delete'))
-
-not_run: WebUI.click(findTestObject('WEB/BO FUSE/Page_VetScan FUSE - Backoffice/Page_VetScan FUSE - Backoffice/a_Confirm_1'))
-
-WS.comment('Hay que mirar de hacer el remove user automatizado a')
-

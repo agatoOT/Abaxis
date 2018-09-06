@@ -10,12 +10,12 @@
       <name>G_FUSE_BO_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>admin / 1234</description>
       <initValue>'admin'</initValue>
       <name>G_FUSEBO_Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Admin / 1234</description>
       <initValue>'aeHFOx8jV/A='</initValue>
       <name>G_FUSEBO_Password</name>
    </GlobalVariableEntity>
@@ -50,7 +50,7 @@
       <name>G_BO_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>agatox / Charlie20$</description>
       <initValue>'agato@opentrends.net'</initValue>
       <name>G_BO_email</name>
    </GlobalVariableEntity>
