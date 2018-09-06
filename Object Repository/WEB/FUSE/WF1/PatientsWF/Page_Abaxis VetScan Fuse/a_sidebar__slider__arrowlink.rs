@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_sidebar__slider__arrowlink</name>
+   <tag></tag>
+   <elementGuidId>9516d9ec-4955-4756-ba42-2f246088aa2d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sidebar__slider__arrowlink</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{active: $state.includes('panel.patientsowners.owner')}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Owners</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>patientsOwnersCtrl.goToOwners();</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths ng-scope&quot;]/body[@class=&quot;md-dialog-is-showing&quot;]/div[@class=&quot;wrapper ng-scope wrapper--cols panel-page&quot;]/aside[@class=&quot;sidebar ng-scope sidebar--icons&quot;]/div[@class=&quot;sidebar--tests ng-scope&quot;]/div[@class=&quot;sidebar__hdr&quot;]/div[@class=&quot;sidebar__slider&quot;]/ul[@class=&quot;sidebar__slider__arrow&quot;]/li[@class=&quot;sidebar__slider__arrowbtn&quot;]/a[@class=&quot;sidebar__slider__arrowlink&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

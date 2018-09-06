@@ -19,3 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/LoginFUSE'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Devices_WF/Devices'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/NewTest_WF/NewTest'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.back()
+
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Patients_WF/Patients'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Settings_WF/Settings'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Test_WF/Tests'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
+

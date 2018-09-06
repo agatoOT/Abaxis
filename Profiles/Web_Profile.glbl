@@ -5,7 +5,7 @@
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description></description>
+      <description>FUSE BO URL</description>
       <initValue>'https://fuseint-public.opentrends.net/vetscan-fuse/login.do;jsessionid=CD400AB63E662264D13AEC8ED7B72AE4'</initValue>
       <name>G_FUSE_BO_URL</name>
    </GlobalVariableEntity>
@@ -20,32 +20,32 @@
       <name>G_FUSEBO_Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>FUSE web</description>
       <initValue>'http://192.168.1.201:8080'</initValue>
       <name>G_FUSE_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>admin / admin</description>
       <initValue>'admin'</initValue>
       <name>G_FUSE_Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>admin / admin</description>
       <initValue>'RAIVpflpDOg='</initValue>
       <name>G_FUSE_Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>0</initValue>
+      <initValue>1</initValue>
       <name>G_delay</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>BO user</description>
       <initValue>'agatox'</initValue>
       <name>G_BO_user</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>agatox / Charlie20$</description>
       <initValue>'OPoca6cPMueeqJUaet3M5g=='</initValue>
       <name>G_BO_password</name>
    </GlobalVariableEntity>
@@ -53,5 +53,10 @@
       <description>agatox / Charlie20$</description>
       <initValue>'agato@opentrends.net'</initValue>
       <name>G_BO_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>FUSE Patient name</description>
+      <initValue>'Auto3'</initValue>
+      <name>G_Patient_name</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
