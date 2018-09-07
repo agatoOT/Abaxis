@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Android/Lib/OpenApp'), [:], FailureHandling.STO
 
 WebUI.callTestCase(findTestCase('Android/Lib/Onboarding'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Android/Lib/Menu/ConfigurationMenu/Configuration'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Android/Lib/Menu/HistoricoMenu/Historico'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Android/Lib/CloseApp'), [:], FailureHandling.STOP_ON_FAILURE)
 

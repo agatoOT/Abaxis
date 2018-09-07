@@ -23,6 +23,11 @@ WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Patients_WF/Patients'), [:],
 
 WebUI.click(findTestObject('WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/button_New Patient'))
 
+
+//Switch to windows popup
+
+WebUI.switchToWindowIndex(1)
+
 WebUI.setText(findTestObject('Page_Abaxis VetScan Fuse/input_name'), 'Alex')
 
 WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/button_md-datepicker-button md'))
@@ -38,4 +43,6 @@ WebUI.selectOptionByValue(findTestObject('Page_Abaxis VetScan Fuse/select_Specie
 WebUI.selectOptionByValue(findTestObject('Page_Abaxis VetScan Fuse/select_GenderMaleFemaleMale Ne'), 'M', true)
 
 WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/span_Save'))
+
+WebUI.switchToWindowIndex(0)
 
