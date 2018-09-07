@@ -19,23 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('Android/WF1/android.widget.ImageView1'), 0)
+WebUI.callTestCase(findTestCase('Android/Lib/Onboarding'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/WF1/android.widget.Button0 - LOGIN'), 0)
+WebUI.callTestCase(findTestCase('Android/Lib/Menu/VUEMenu/VUE'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/WF1/android.widget.ImageView1 (1)'), 0)
+WebUI.callTestCase(findTestCase('Android/Lib/Menu/UsersMenu/User'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/WF1/android.widget.Button1 - YES'), 0)
+WebUI.callTestCase(findTestCase('Android/Lib/Menu/HistoricoMenu/Historico'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Android/WF1/android.widget.Button0 - OK'), 0)
-
-Mobile.tap(findTestObject('Android/WF1/android.widget.ImageButton1'), 0)
-
-Mobile.tap(findTestObject('Android/WF1/android.widget.ImageButton2'), 0)
-
-Mobile.tap(findTestObject('Android/WF1/android.widget.ImageButton3'), 0)
-
-Mobile.tap(findTestObject('Android/WF1/android.widget.ImageButton4'), 0)
+WebUI.callTestCase(findTestCase('Android/Lib/Menu/ConfigurationMenu/Configuration'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.pressBack()
 

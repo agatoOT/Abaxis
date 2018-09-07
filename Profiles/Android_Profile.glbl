@@ -14,4 +14,9 @@
       <initValue>true</initValue>
       <name>G_installation</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'192.168.104.101'</initValue>
+      <name>G_FUSE_IP</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

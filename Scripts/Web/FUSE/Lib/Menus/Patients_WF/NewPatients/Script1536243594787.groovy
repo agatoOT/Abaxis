@@ -21,14 +21,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Patients_WF/Patients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/span_list-block__col'))
+WebUI.click(findTestObject('WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/button_New Patient'))
 
-WebUI.click(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/md-input-container_Name'))
+WebUI.setText(findTestObject('Page_Abaxis VetScan Fuse/input_name'), 'Alex')
 
-WebUI.doubleClick(findTestObject('Page_Abaxis VetScan Fuse/input_name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/button_md-datepicker-button md'))
 
-'Está Bloqueado y no escribe el nombre del paciente\r\n'
-WebUI.setText(findTestObject('Page_Abaxis VetScan Fuse/input_name'), GlobalVariable.G_Patient_name)
+WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/span_3'))
 
-WebUI.click(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/button_Save'))
+WebUI.setText(findTestObject('Page_Abaxis VetScan Fuse/input_owner'), 'A')
+
+WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/span_Alex Gato'))
+
+WebUI.selectOptionByValue(findTestObject('Page_Abaxis VetScan Fuse/select_SpeciesAFRICANGRAYALLIG'), 'BUFFALO', true)
+
+WebUI.selectOptionByValue(findTestObject('Page_Abaxis VetScan Fuse/select_GenderMaleFemaleMale Ne'), 'M', true)
+
+WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/span_Save'))
 

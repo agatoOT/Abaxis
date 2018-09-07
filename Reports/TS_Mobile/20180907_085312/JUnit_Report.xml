@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Mobile" time="80" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Mobile" tests="1" failures="0" errors="0" time="80" timestamp="2018-09-07 08:57:11" hostname="Agato - 192.168.1.3" id="Test Suites/TS_Mobile">
+      <properties>
+         <property name="deviceName" value="samsung SM-G920F (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_Mobile\\20180907_085312"/>
+         <property name="logFiles" value="C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_Mobile\\20180907_085312\\appium.log, C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_Mobile\\20180907_085312\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Agato - 192.168.1.3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G920F"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="10160a0973263f03"/>
+         <property name="deviceName" value="samsung SM-G920F (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/Android/TC/TC_LoginApp" classname="Test Cases/Android/TC/TC_LoginApp" status="PASSED">
+         <system-out><![CDATA[2018-09-07 08:57:12 - [TEST_CASE][PASSED] - Test Cases/Android/TC/TC_LoginApp: Test Cases/Android/TC/TC_LoginApp
+
+2018-09-07 08:57:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-07 08:57:12 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/OpenApp: Test Cases/Android/Lib/OpenApp
+
+2018-09-07 08:57:12 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-07 08:58:06 - [MESSAGE][PASSED] - Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-07 08:58:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-07 08:58:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/EndToEnd' successfully
+
+2018-09-07 08:58:06 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/EndToEnd: Test Cases/Android/Lib/EndToEnd
+
+2018-09-07 08:58:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-07 08:58:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-07 08:58:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-07 08:58:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-07 08:58:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-07 08:58:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-07 08:58:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-07 08:58:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-07 08:58:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-07 08:58:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-07 08:58:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-07 08:58:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-07 08:58:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-07 08:58:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-07 08:58:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-07 08:58:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton1'
+
+2018-09-07 08:58:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-07 08:58:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton1'
+
+2018-09-07 08:58:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton2'
+
+2018-09-07 08:58:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-07 08:58:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton2'
+
+2018-09-07 08:58:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton3'
+
+2018-09-07 08:58:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-07 08:58:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton3'
+
+2018-09-07 08:58:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton4'
+
+2018-09-07 08:58:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-07 08:58:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton4'
+
+2018-09-07 08:58:24 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-09-07 08:58:24 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-09-07 08:58:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-07 08:58:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-07 08:58:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-07 08:58:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/EndToEnd' successfully
+
+2018-09-07 08:58:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-07 08:58:27 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/CloseApp: Test Cases/Android/Lib/CloseApp
+
+2018-09-07 08:58:27 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-07 08:58:32 - [MESSAGE][PASSED] - Close app successfully
+
+2018-09-07 08:58:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-07 08:57:11 - [TEST_SUITE][PASSED] - TS_Mobile: Test Cases/Android/TC/TC_LoginApp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
