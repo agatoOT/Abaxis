@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ServiciosRest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4cc6b0e-65ff-4f49-a8a7-40f1ae9bf843</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7bd808ca-30b8-48c6-ba6a-791259ec5b61</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+</TestCaseEntity>

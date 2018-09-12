@@ -19,28 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Patients_WF/Patients'), [:], FailureHandling.STOP_ON_FAILURE)
+response = WS.sendRequest(findTestObject('VETXML_REST/GetAllCountries'))
 
-WebUI.click(findTestObject('WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/button_New Patient'))
+WS.verifyResponseStatusCode(response, 200)
 
-//Switch to windows popup
-WebUI.switchToWindowIndex(1)
-
-WebUI.setText(findTestObject('Page_Abaxis VetScan Fuse/input_name'), 'Alex')
-
-WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/button_md-datepicker-button md'))
-
-WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/span_3'))
-
-WebUI.setText(findTestObject('Page_Abaxis VetScan Fuse/input_owner'), 'A')
-
-WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/span_Alex Gato'))
-
-WebUI.selectOptionByValue(findTestObject('Page_Abaxis VetScan Fuse/select_SpeciesAFRICANGRAYALLIG'), 'BUFFALO', true)
-
-WebUI.selectOptionByValue(findTestObject('Page_Abaxis VetScan Fuse/select_GenderMaleFemaleMale Ne'), 'M', true)
-
-WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/span_Save'))
-
-WebUI.switchToWindowIndex(0)
+WS.verifyElementPropertyValue(response, '[0].username', 'John Smith')
 
