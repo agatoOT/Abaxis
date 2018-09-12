@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VETXML_REST,,,2018-09-12 10:46:37,2018-09-12 10:46:39,"1,920s",PASSED
+,,,,,,
+Test Cases/VETXML_Rest/TC/TC_ServiciosRest,,,2018-09-12 10:46:38,2018-09-12 10:46:39,"1,509s",PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VETXML_REST/Prueba_ServicioRest)),,,2018-09-12 10:46:38,2018-09-12 10:46:39,"1,250s",PASSED

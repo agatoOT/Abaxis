@@ -19,9 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('VETXML_REST/GetAllCountries'))
-
-not_run: WS.verifyResponseStatusCode(response, 200)
-
-not_run: WS.verifyElementPropertyValue(response, '[0].username', 'John Smith')
+response = WS.sendRequest(findTestObject('VETXML_REST/Prueba_ServicioRest'))
 

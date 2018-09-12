@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetAllCountries</name>
+   <name>Prueba_ServicioRest</name>
    <tag></tag>
-   <elementGuidId>a5247905-dbd2-409c-ab63-a7132abb84b3</elementGuidId>
+   <elementGuidId>50fe990c-de00-440a-b7e0-e3fe3f803653</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
-      <type>Main</type>
-      <value>Basic cG1zOnBtcw==</value>
-   </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://192.168.1.203:8080/vetsync/v1/orders</restUrl>
+   <restUrl>https://sample-web-service-aut.herokuapp.com/api/users/accept-json?gender=MALE&amp;age=15</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

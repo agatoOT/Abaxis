@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Web,Firefox 61.0,,2018-09-12 09:08:33,2018-09-12 09:09:21,"47,845s",FAILED
+,,,,,,
+Test Cases/Web/BO FUSE/TC/TC_Login,Firefox 61.0,,2018-09-12 09:08:33,2018-09-12 09:08:45,"11,597s",PASSED
+callTestCase,Firefox 61.0,,2018-09-12 09:08:34,2018-09-12 09:08:43,"8,929s",PASSED
+callTestCase,Firefox 61.0,,2018-09-12 09:08:43,2018-09-12 09:08:45,"2,031s",PASSED
+callTestCase,Firefox 61.0,,2018-09-12 09:08:45,2018-09-12 09:08:45,"0,369s",PASSED
+,,,,,,
+Test Cases/Web/FUSE/TC/TC_LoginFUSE,Firefox 61.0,,2018-09-12 09:08:45,2018-09-12 09:09:02,"16,765s",FAILED
+callTestCase,Firefox 61.0,,2018-09-12 09:08:45,2018-09-12 09:09:01,"16,295s",PASSED
+callTestCase,Firefox 61.0,,2018-09-12 09:09:01,2018-09-12 09:09:02,"0,374s",FAILED
+,,,,,,
+Test Cases/Web/BO FUSE/TC/TC_Users,Firefox 61.0,,2018-09-12 09:09:02,2018-09-12 09:09:02,"0,297s",FAILED
+callTestCase,Firefox 61.0,,2018-09-12 09:09:02,2018-09-12 09:09:02,"0,147s",FAILED
+,,,,,,
+Test Cases/Web/FUSE/TC/TC_Navigation,Firefox 61.0,,2018-09-12 09:09:02,2018-09-12 09:09:21,"18,586s",FAILED
+callTestCase,Firefox 61.0,,2018-09-12 09:09:02,2018-09-12 09:09:20,"18,287s",PASSED
+callTestCase,Firefox 61.0,,2018-09-12 09:09:20,2018-09-12 09:09:21,"0,138s",FAILED
+,,,,,,
+Test Cases/Web/FUSE/TC/TC_NewOwner,Firefox 61.0,,2018-09-12 09:09:21,2018-09-12 09:09:21,"0,247s",FAILED
+callTestCase,Firefox 61.0,,2018-09-12 09:09:21,2018-09-12 09:09:21,"0,118s",FAILED

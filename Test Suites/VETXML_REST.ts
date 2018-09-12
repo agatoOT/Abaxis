@@ -4,7 +4,7 @@
    <name>VETXML_REST</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-12T08:40:26</lastRun>
+   <lastRun>2018-09-12T10:46:36</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,7 +15,7 @@
       <guid>5444fc25-28c4-4c46-b0fc-f75a1d79648c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/VETXML_Rest/TC/ServiciosRest</testCaseId>
+      <testCaseId>Test Cases/VETXML_Rest/TC/TC_ServiciosRest</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
