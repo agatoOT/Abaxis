@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/form_Login'))
 
-WebUI.setText(findTestObject('WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_username'), 'admin')
+WebUI.setText(findTestObject('WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_username'), GlobalVariable.G_FUSE_Username)
 
-WebUI.setEncryptedText(findTestObject('WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_password'), 'RAIVpflpDOg=')
+WebUI.setEncryptedText(findTestObject('WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_password'), GlobalVariable.G_FUSE_Password)
 
 WebUI.click(findTestObject('WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/button_Login'))
 

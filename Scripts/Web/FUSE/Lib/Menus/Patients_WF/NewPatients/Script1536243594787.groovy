@@ -18,29 +18,52 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Patients_WF/Patients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/button_New Patient'))
+WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/span_Reset_list-block__col'))
 
-//Switch to windows popup
-WebUI.switchToWindowIndex(1)
+WebUI.focus(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_Name'))
 
-WebUI.setText(findTestObject('Page_Abaxis VetScan Fuse/input_name'), 'Alex')
+WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/md-input-container_Name'))
 
-WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/button_md-datepicker-button md'))
+WebUI.setText(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/input_Name_name'), 'Alejandro')
 
-WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/span_3'))
+WebUI.focus(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/button_Abbreviated history_md-'))
 
-WebUI.setText(findTestObject('Page_Abaxis VetScan Fuse/input_owner'), 'A')
+WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/button_Abbreviated history_md-'))
 
-WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/span_Alex Gato'))
+WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/span_12'))
 
-WebUI.selectOptionByValue(findTestObject('Page_Abaxis VetScan Fuse/select_SpeciesAFRICANGRAYALLIG'), 'BUFFALO', true)
+WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_SpeciesSpeciesAFRICANGRAYA'))
 
-WebUI.selectOptionByValue(findTestObject('Page_Abaxis VetScan Fuse/select_GenderMaleFemaleMale Ne'), 'M', true)
+WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/md-input-container_Abbreviated'))
 
-WebUI.click(findTestObject('Page_Abaxis VetScan Fuse/span_Save'))
+WebUI.focus(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_Name'))
 
-WebUI.switchToWindowIndex(0)
+WebUI.setText(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/input_Owner_owner'), 'ale')
+
+WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/li_Alex1 Gato'))
+
+WebUI.focus(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_SpeciesSpeciesAFRICANGRAYA'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/select_SpeciesAFRICANGRAYALLIG'), 
+    'DEER', true)
+
+WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_Name'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/select_GenderMaleFemaleMale Ne'), 
+    'M', true)
+
+WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_SpeciesSpeciesAFRICANGRAYA'))
+
+WebUI.setText(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/input_Breed_breed'), 'aaaa')
+
+WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/fieldset_Name'))
+
+WebUI.setText(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/textarea_Abbreviated history_a'), 
+    'aaaa')
+
+WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/span_Save'))
 

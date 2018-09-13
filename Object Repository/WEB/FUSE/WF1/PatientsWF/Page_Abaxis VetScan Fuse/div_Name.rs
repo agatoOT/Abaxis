@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Name</name>
+   <tag></tag>
+   <elementGuidId>18ed1d89-ebd6-40aa-a9c8-daf7ed3c5187</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal__body</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Name                                             Owner                                                                              GenderGenderMaleFemaleMale NeuteredFemale SpayedUnknownAbbreviated history                                  SpeciesSpeciesAFRICANGRAYALLIGATORALPACCAAMAZONAMPHIBIANANTELOPEAPEBABOONBATBEARBEARDEDDRAGONBIRDBISONBOACONSTRICTORBOBCATBUFFALOBULLCAMELCATCHAMELEONCHEETAHCHICKENCHIMPANZEECHINCHILLACOCKATIELCOCKATOOCONURECOWCOYOTECROCODILECYNODEERDINGODOGDONKEYDOVEDUCKELEPHANTFERRETFLAMINGOFOALFOXFROGGECKOGERBILGIRAFFEGOATGOOSEGUINEAPIGHAMSTERHEDGEHOGHORSEIGUANAJACKALJAGUARKANGAROOKITTENLARGEMAMMALLEMURLEOPARDLIONLIZARDLLAMALOVEBIRDLYNXMACAWMINKMONITORMONKEYMOUSEMYNAHOPOSSUMOSTRICHOTHEROXPANTHERPARAKEETPARROTPIGPONYPRAIRIEDOGPRIMATEPUMAPUPPYPYTHONRABBITRACCOONRATREPTILERHESUSSALAMANDERSEALSEALIONSHEEPSKUNKSMALLMAMMALSNAKESQUIRRELSTEERTIGERTOADTORTOISETOUCANTURTLEWATERBUFFALOWOLFZEBRABreed </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dialogContent_14&quot;)/div[@class=&quot;modal__body&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//md-dialog-content[@id='dialogContent_14']/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alejandro'])[2]/following::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::div[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//md-dialog-content/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

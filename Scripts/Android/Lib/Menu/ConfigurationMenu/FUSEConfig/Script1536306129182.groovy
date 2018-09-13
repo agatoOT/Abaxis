@@ -18,23 +18,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-Mobile.tap(findTestObject('Android/WF1/Configuration/android.widget.LinearLayout4'), 0)
+Mobile.tap(findTestObject('Android/WFSettings/android.widget.ImageButton4'), 0)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Android/WFSettings/android.widget.LinearLayout8'), 0)
 
-Mobile.tap(findTestObject('Android/WF1/Configuration/android.widget.LinearLayout5'), 0)
+Mobile.tap(findTestObject('Android/WFSettings/android.widget.TextView1'), 0)
 
-Mobile.tap(findTestObject('Android/WF1/Configuration/android.widget.LinearLayout5'), 0)
-
-Mobile.tap(findTestObject('Android/WF1/Configuration/android.widget.RelativeLayout7'), 0)
-
-Mobile.tap(findTestObject('Android/WF1/Configuration/android.support.v7.widget.LinearLayoutCompat0'), 0)
-
-Mobile.setText(findTestObject('Android/WF1/Configuration/android.widget.EditText0 - Enter fuse IP address'), GlobalVariable.G_FUSE_IP, 
+Mobile.setText(findTestObject('Android/WFSettings/android.widget.EditText0 - Enter fuse IP address'), GlobalVariable.G_FUSE_IP, 
     0)
 
-Mobile.tap(findTestObject('Android/WF1/Configuration/android.widget.Button0 - CONNECT'), 0)
+Mobile.tap(findTestObject('Android/WFSettings/android.widget.Button0 - CONNECT'), 0)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Android/WFSettings/android.widget.ImageButton0'), 0)
+
+Mobile.tap(findTestObject('Android/WFSettings/android.widget.ImageButton0'), 0)
 

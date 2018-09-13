@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://192.168.1.201:8080/#/')
+WebUI.navigateToUrl(GlobalVariable.G_FUSE_URL)
 
 WebUI.callTestCase(findTestCase('Web/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 

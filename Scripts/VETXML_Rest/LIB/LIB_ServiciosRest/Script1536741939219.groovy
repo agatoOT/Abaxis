@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('VETXML_REST/Prueba_ServicioRest'))
+response = WS.sendRequest(findTestObject('VETXML_REST/POST Order FUSE'))
 
 WS.verifyResponseStatusCode(response, 200)
 

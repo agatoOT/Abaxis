@@ -61,7 +61,7 @@ WebUI.setText(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Aba
 
 WebUI.callTestCase(findTestCase('Web/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/span_Save'))
+WebUI.click(findTestObject('null'))
 
 WebUI.callTestCase(findTestCase('Web/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 

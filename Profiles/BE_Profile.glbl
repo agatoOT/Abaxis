@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>BE_Profile</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.168.1.150:8080/vetsync/v1/'</initValue>
+      <name>BE_url</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

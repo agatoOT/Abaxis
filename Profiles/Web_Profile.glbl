@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>FUSE BO URL</description>
-      <initValue>'https://fuseint-public.opentrends.net/vetscan-fuse/login.do;jsessionid=CD400AB63E662264D13AEC8ED7B72AE4'</initValue>
+      <initValue>'https://fusedev-public.opentrends.net/vetscan-fuse/login.do;jsessionid=CD400AB63E662264D13AEC8ED7B72AE4'</initValue>
       <name>G_FUSE_BO_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -15,13 +15,13 @@
       <name>G_FUSEBO_Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Admin / 1234</description>
+      <description>Admin / 123456</description>
       <initValue>'aeHFOx8jV/A='</initValue>
       <name>G_FUSEBO_Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>FUSE web</description>
-      <initValue>'http://192.168.1.201:8080'</initValue>
+      <initValue>'http://192.168.1.150:8080/'</initValue>
       <name>G_FUSE_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
