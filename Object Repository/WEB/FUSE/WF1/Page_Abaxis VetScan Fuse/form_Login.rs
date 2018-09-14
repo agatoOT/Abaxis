@@ -4,6 +4,12 @@
    <name>form_Login</name>
    <tag></tag>
    <elementGuidId>8ad0083a-9c91-4ce0-8758-6c9af1114826</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//form[@name = 'login.form' and @class = 'main-form form--reverse form--login ng-pristine ng-valid' and (text() = 'Login ' or . = 'Login ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>login.form</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

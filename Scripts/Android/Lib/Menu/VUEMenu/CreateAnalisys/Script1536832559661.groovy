@@ -19,7 +19,7 @@ Mobile.tap(findTestObject('Android/Create Analisys/android.widget.ImageView2'), 
 
 Mobile.tap(findTestObject('Android/Create Analisys/android.widget.LinearLayout4'), 0)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Android/WFVUE/android.widget.ImageButton0'), 0)
 
 Mobile.tap(findTestObject('Android/Create Analisys/android.widget.Button0 - OK'), 0)
 
@@ -28,4 +28,6 @@ Mobile.tap(findTestObject('Android/Create Analisys/android.widget.ImageButton0')
 Mobile.tap(findTestObject('Android/Create Analisys/android.widget.ImageButton1'), 0)
 
 Mobile.delay(60, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Android/WFVUE/android.widget.ImageView0'), 0)
 

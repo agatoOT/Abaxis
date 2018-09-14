@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-TS_Mobile,,,2018-09-07 08:53:14,2018-09-07 08:54:38,"1m - 23,887s",PASSED
-,,,,,,
-Test Cases/Android/TC/TC_LoginApp,,,2018-09-07 08:53:15,2018-09-07 08:54:38,"1m - 23,525s",PASSED
-callTestCase,,,2018-09-07 08:53:15,2018-09-07 08:54:13,"58,649s",PASSED
-callTestCase,,,2018-09-07 08:54:13,2018-09-07 08:54:34,"20,373s",PASSED
-callTestCase,,,2018-09-07 08:54:34,2018-09-07 08:54:38,"4,242s",PASSED

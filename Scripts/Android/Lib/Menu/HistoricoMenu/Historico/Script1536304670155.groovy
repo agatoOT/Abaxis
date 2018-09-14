@@ -19,3 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Configuration\r\n'
+Mobile.tap(findTestObject('Android/WF1/android.widget.ImageButton1'), 0)
+

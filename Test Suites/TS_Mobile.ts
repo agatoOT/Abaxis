@@ -4,7 +4,7 @@
    <name>TS_Mobile</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-07T11:44:41</lastRun>
+   <lastRun>2018-09-14T10:07:56</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -40,5 +40,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android/TC/TC_VUE</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6dd0819f-6e87-4cc0-9de5-dc0f23d715a0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/TC/TC_FUSEConfig</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eb7d959b-0edd-4292-a96b-48908b3a44fe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android/TC/TC_VUEConfig</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
