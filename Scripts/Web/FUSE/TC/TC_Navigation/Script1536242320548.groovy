@@ -27,8 +27,6 @@ WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Devices_WF/Devices'), [:], F
 
 WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/NewTest_WF/NewTest'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.back()
-
 WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Patients_WF/Patients'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Settings_WF/Settings'), [:], FailureHandling.STOP_ON_FAILURE)
