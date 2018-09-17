@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Post Order Fuse</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf752e3d-7641-4c92-a6f4-3f1ec7182917</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1475e648-3b5b-4b7a-9723-ac8bc11ac5a9</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+</TestCaseEntity>

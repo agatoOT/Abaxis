@@ -11,12 +11,19 @@
    <httpBodyType></httpBodyType>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://localhost:8080/vetsync/v1/orders/?PracticeRef=1234ABED/status</restUrl>
+   <restUrl>${url}orders/?PracticeRef=1234ABED/status</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.BE_url</defaultValue>
+      <description></description>
+      <id>7fcc0ee2-04d5-4d99-bcee-60e75078938a</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

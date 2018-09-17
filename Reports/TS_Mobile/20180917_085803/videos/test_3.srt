@@ -1,8 +1,0 @@
-15
-00:01:24,000 --> 00:01:24,001
-1. Statement - println(testCaseContext.getTestCaseId())
-
-16
-00:01:24,010 --> 00:01:24,011
-5. Statement - println(testCaseContext.getTestCaseVariables())
-

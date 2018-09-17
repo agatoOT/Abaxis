@@ -19,6 +19,9 @@ WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/OpenBrowser'), [:], FailureHandl
 WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Queda pendiente de definición \r\n'
+WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/Menus/Menu Selector'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Queda pendiente de definición \r\n'
 WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/MenuBara/MenuBar'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)

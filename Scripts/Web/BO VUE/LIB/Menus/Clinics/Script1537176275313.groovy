@@ -12,14 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Queda pendiente de definición \r\n'
-WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/MenuBara/MenuBar'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
+'Menu Superior\r\n'
+WebUI.click(findTestObject('Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/a_Clinics'))
 

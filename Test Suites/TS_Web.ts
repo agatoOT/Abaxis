@@ -4,7 +4,7 @@
    <name>TS_Web</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-17T08:58:04</lastRun>
+   <lastRun>2018-09-17T10:43:39</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -46,5 +46,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/BO VUE/TC/VUE BO Main Screen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c1611dc5-7d2b-4cb6-9834-2bba68afc6d6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/BO VUE/TC/VUE BO Menus Compleate</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e63dc080-30ee-4c1e-9d62-b364afdfd974</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/BO VUE/TC/VUE BO Main Menu</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
