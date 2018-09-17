@@ -4,7 +4,7 @@
    <name>TS_Web</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-13T09:43:53</lastRun>
+   <lastRun>2018-09-17T08:58:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -40,5 +40,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/FUSE/TC/TC_NewOwner</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4cbc39e6-0c30-4e21-9d95-6d4e4f3d6b04</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/BO VUE/TC/VUE BO Main Screen</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

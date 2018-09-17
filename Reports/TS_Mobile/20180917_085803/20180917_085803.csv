@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Mobile,,,2018-09-17 09:12:23,2018-09-17 09:24:48,"12m - 25,137s",FAILED
+,,,,,,
+Test Cases/Android/TC/TC_LoginApp,,,2018-09-17 09:12:23,2018-09-17 09:13:47,"1m - 23,914s",PASSED
+Start listener action : sampleBeforeTestCase,,,2018-09-17 09:12:23,2018-09-17 09:12:23,"0,010s",PASSED
+callTestCase,,,2018-09-17 09:12:23,2018-09-17 09:13:21,"57,960s",PASSED
+callTestCase,,,2018-09-17 09:13:21,2018-09-17 09:13:41,"19,545s",PASSED
+callTestCase,,,2018-09-17 09:13:41,2018-09-17 09:13:45,"3,991s",PASSED
+Start listener action : sampleAfterTestCase,,,2018-09-17 09:13:45,2018-09-17 09:13:45,"0,014s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_Configuration,,,2018-09-17 09:13:47,2018-09-17 09:15:29,"1m - 41,862s",PASSED
+Start listener action : sampleBeforeTestCase,,,2018-09-17 09:13:47,2018-09-17 09:13:47,"0,012s",PASSED
+callTestCase,,,2018-09-17 09:13:47,2018-09-17 09:15:11,"1m - 23,884s",PASSED
+callTestCase,,,2018-09-17 09:15:11,2018-09-17 09:15:22,"11,229s",PASSED
+callTestCase,,,2018-09-17 09:15:22,2018-09-17 09:15:22,"0,411s",PASSED
+callTestCase,,,2018-09-17 09:15:22,2018-09-17 09:15:27,"4,116s",PASSED
+Start listener action : sampleAfterTestCase,,,2018-09-17 09:15:27,2018-09-17 09:15:27,"0,012s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_Historico,,,2018-09-17 09:15:29,2018-09-17 09:16:53,"1m - 24,008s",PASSED
+Start listener action : sampleBeforeTestCase,,,2018-09-17 09:15:29,2018-09-17 09:15:29,"0,013s",PASSED
+callTestCase,,,2018-09-17 09:15:29,2018-09-17 09:16:35,"1m - 6,517s",PASSED
+callTestCase,,,2018-09-17 09:16:35,2018-09-17 09:16:46,"10,850s",PASSED
+callTestCase,,,2018-09-17 09:16:46,2018-09-17 09:16:46,"0,393s",PASSED
+callTestCase,,,2018-09-17 09:16:46,2018-09-17 09:16:51,"4,067s",PASSED
+Start listener action : sampleAfterTestCase,,,2018-09-17 09:16:51,2018-09-17 09:16:51,"0,019s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_Users,,,2018-09-17 09:16:53,2018-09-17 09:18:20,"1m - 27,383s",PASSED
+Start listener action : sampleBeforeTestCase,,,2018-09-17 09:16:53,2018-09-17 09:16:53,"0,025s",PASSED
+callTestCase,,,2018-09-17 09:16:53,2018-09-17 09:18:01,"1m - 8,404s",PASSED
+callTestCase,,,2018-09-17 09:18:01,2018-09-17 09:18:13,"12,203s",PASSED
+callTestCase,,,2018-09-17 09:18:13,2018-09-17 09:18:14,"0,309s",PASSED
+callTestCase,,,2018-09-17 09:18:14,2018-09-17 09:18:18,"4,214s",PASSED
+Start listener action : sampleAfterTestCase,,,2018-09-17 09:18:18,2018-09-17 09:18:18,"0,024s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_VUE,,,2018-09-17 09:18:20,2018-09-17 09:20:03,"1m - 42,976s",PASSED
+Start listener action : sampleBeforeTestCase,,,2018-09-17 09:18:20,2018-09-17 09:18:20,"0,009s",PASSED
+callTestCase,,,2018-09-17 09:18:20,2018-09-17 09:19:45,"1m - 25,124s",PASSED
+callTestCase,,,2018-09-17 09:19:45,2018-09-17 09:19:56,"11,082s",PASSED
+callTestCase,,,2018-09-17 09:19:56,2018-09-17 09:19:57,"0,379s",PASSED
+callTestCase,,,2018-09-17 09:19:57,2018-09-17 09:20:01,"4,146s",PASSED
+Start listener action : sampleAfterTestCase,,,2018-09-17 09:20:01,2018-09-17 09:20:01,"0,043s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_FUSEConfig,,,2018-09-17 09:20:03,2018-09-17 09:22:14,"2m - 11,360s",PASSED
+Start listener action : sampleBeforeTestCase,,,2018-09-17 09:20:03,2018-09-17 09:20:03,"0,011s",PASSED
+callTestCase,,,2018-09-17 09:20:03,2018-09-17 09:21:15,"1m - 11,485s",PASSED
+callTestCase,,,2018-09-17 09:21:15,2018-09-17 09:21:29,"14,671s",PASSED
+callTestCase,,,2018-09-17 09:21:29,2018-09-17 09:21:30,"0,366s",PASSED
+callTestCase,,,2018-09-17 09:21:30,2018-09-17 09:22:08,"38,212s",PASSED
+callTestCase,,,2018-09-17 09:22:08,2018-09-17 09:22:12,"4,456s",PASSED
+Start listener action : sampleAfterTestCase,,,2018-09-17 09:22:12,2018-09-17 09:22:12,"0,014s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_VUEConfig,,,2018-09-17 09:22:14,2018-09-17 09:24:43,"2m - 28,838s",FAILED
+Start listener action : sampleBeforeTestCase,,,2018-09-17 09:22:14,2018-09-17 09:22:14,"0,011s",PASSED
+callTestCase,,,2018-09-17 09:22:14,2018-09-17 09:23:33,"1m - 18,972s",PASSED
+callTestCase,,,2018-09-17 09:23:33,2018-09-17 09:23:44,"10,855s",PASSED
+callTestCase,,,2018-09-17 09:23:44,2018-09-17 09:23:45,"0,406s",PASSED
+callTestCase,,,2018-09-17 09:23:45,2018-09-17 09:24:03,"18,423s",PASSED
+callTestCase,,,2018-09-17 09:24:03,2018-09-17 09:24:41,"38,015s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-17 09:24:41,2018-09-17 09:24:41,"0,014s",PASSED

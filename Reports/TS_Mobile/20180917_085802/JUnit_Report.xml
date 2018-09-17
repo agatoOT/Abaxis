@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Mobile" time="704" tests="7" failures="0" errors="0">
+   <testsuite name="TS_Mobile" tests="7" failures="0" errors="0" time="704" timestamp="2018-09-17 08:58:06" hostname="Agato - 192.168.1.11" id="Test Suites/TS_Mobile">
+      <properties>
+         <property name="deviceName" value="samsung SM-G920F (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_Mobile\\20180917_085802"/>
+         <property name="logFiles" value="C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_Mobile\\20180917_085802\\appium.log, C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_Mobile\\20180917_085802\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Agato - 192.168.1.11"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G920F"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="10160a0973263f03"/>
+         <property name="deviceName" value="samsung SM-G920F (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/Android/TC/TC_LoginApp" classname="Test Cases/Android/TC/TC_LoginApp" status="PASSED">
+         <system-out><![CDATA[2018-09-17 08:58:07 - [TEST_CASE][PASSED] - Test Cases/Android/TC/TC_LoginApp: Test Cases/Android/TC/TC_LoginApp
+
+2018-09-17 08:58:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 08:58:07 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 08:58:07 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 08:58:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 08:58:07 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/OpenApp: Test Cases/Android/Lib/OpenApp
+
+2018-09-17 08:58:07 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 08:59:08 - [MESSAGE][PASSED] - Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 08:59:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 08:59:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/EndToEnd' successfully
+
+2018-09-17 08:59:08 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/EndToEnd: Test Cases/Android/Lib/EndToEnd
+
+2018-09-17 08:59:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 08:59:08 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Onboarding: Test Cases/Android/Lib/Onboarding
+
+2018-09-17 08:59:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 08:59:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 08:59:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 08:59:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 08:59:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 08:59:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 08:59:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 08:59:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 08:59:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 08:59:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 08:59:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 08:59:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 08:59:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 08:59:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 08:59:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 08:59:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 08:59:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/VUEMenu/VUE' successfully
+
+2018-09-17 08:59:20 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/VUEMenu/VUE: Test Cases/Android/Lib/Menu/VUEMenu/VUE
+
+2018-09-17 08:59:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFVUE/android.widget.ImageButton2'
+
+2018-09-17 08:59:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 08:59:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFVUE/android.widget.ImageButton2'
+
+2018-09-17 08:59:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/VUEMenu/VUE' successfully
+
+2018-09-17 08:59:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/UsersMenu/User' successfully
+
+2018-09-17 08:59:21 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/UsersMenu/User: Test Cases/Android/Lib/Menu/UsersMenu/User
+
+2018-09-17 08:59:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton3'
+
+2018-09-17 08:59:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 08:59:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton3'
+
+2018-09-17 08:59:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/UsersMenu/User' successfully
+
+2018-09-17 08:59:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/HistoricoMenu/Historico' successfully
+
+2018-09-17 08:59:22 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/HistoricoMenu/Historico: Test Cases/Android/Lib/Menu/HistoricoMenu/Historico
+
+2018-09-17 08:59:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton1'
+
+2018-09-17 08:59:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 08:59:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton1'
+
+2018-09-17 08:59:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/HistoricoMenu/Historico' successfully
+
+2018-09-17 08:59:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration' successfully
+
+2018-09-17 08:59:23 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration: Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration
+
+2018-09-17 08:59:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton4'
+
+2018-09-17 08:59:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 08:59:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton4'
+
+2018-09-17 08:59:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration' successfully
+
+2018-09-17 08:59:24 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-09-17 08:59:25 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-09-17 08:59:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 08:59:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 08:59:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 08:59:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/EndToEnd' successfully
+
+2018-09-17 08:59:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 08:59:27 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/CloseApp: Test Cases/Android/Lib/CloseApp
+
+2018-09-17 08:59:27 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-17 08:59:30 - [MESSAGE][PASSED] - Close app successfully
+
+2018-09-17 08:59:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 08:59:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-17 08:59:30 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 08:59:30 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/TC/TC_Configuration" classname="Test Cases/Android/TC/TC_Configuration" status="PASSED">
+         <system-out><![CDATA[2018-09-17 08:59:32 - [TEST_CASE][PASSED] - Test Cases/Android/TC/TC_Configuration: Test Cases/Android/TC/TC_Configuration
+
+2018-09-17 08:59:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 08:59:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 08:59:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 08:59:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 08:59:32 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/OpenApp: Test Cases/Android/Lib/OpenApp
+
+2018-09-17 08:59:32 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:00:38 - [MESSAGE][PASSED] - Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:00:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 09:00:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:00:38 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Onboarding: Test Cases/Android/Lib/Onboarding
+
+2018-09-17 09:00:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:00:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:00:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:00:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:00:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:00:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:00:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:00:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:00:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:00:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:00:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:00:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:00:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:00:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:00:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:00:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:00:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration' successfully
+
+2018-09-17 09:00:48 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration: Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration
+
+2018-09-17 09:00:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton4'
+
+2018-09-17 09:00:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:00:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton4'
+
+2018-09-17 09:00:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration' successfully
+
+2018-09-17 09:00:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:00:48 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/CloseApp: Test Cases/Android/Lib/CloseApp
+
+2018-09-17 09:00:48 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-17 09:00:53 - [MESSAGE][PASSED] - Close app successfully
+
+2018-09-17 09:00:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:00:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-17 09:00:53 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 09:00:53 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/TC/TC_Historico" classname="Test Cases/Android/TC/TC_Historico" status="PASSED">
+         <system-out><![CDATA[2018-09-17 09:00:55 - [TEST_CASE][PASSED] - Test Cases/Android/TC/TC_Historico: Test Cases/Android/TC/TC_Historico
+
+2018-09-17 09:00:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 09:00:55 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 09:00:55 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 09:00:55 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 09:00:55 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/OpenApp: Test Cases/Android/Lib/OpenApp
+
+2018-09-17 09:00:55 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:02:02 - [MESSAGE][PASSED] - Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:02:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 09:02:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:02:02 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Onboarding: Test Cases/Android/Lib/Onboarding
+
+2018-09-17 09:02:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:02:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:02:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:02:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:02:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:02:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:02:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:02:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:02:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:02:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:02:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:02:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:02:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:02:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:02:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:02:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:02:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/HistoricoMenu/Historico' successfully
+
+2018-09-17 09:02:12 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/HistoricoMenu/Historico: Test Cases/Android/Lib/Menu/HistoricoMenu/Historico
+
+2018-09-17 09:02:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton1'
+
+2018-09-17 09:02:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:02:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton1'
+
+2018-09-17 09:02:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/HistoricoMenu/Historico' successfully
+
+2018-09-17 09:02:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:02:13 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/CloseApp: Test Cases/Android/Lib/CloseApp
+
+2018-09-17 09:02:13 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-17 09:02:17 - [MESSAGE][PASSED] - Close app successfully
+
+2018-09-17 09:02:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:02:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-17 09:02:17 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 09:02:17 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/TC/TC_Users" classname="Test Cases/Android/TC/TC_Users" status="PASSED">
+         <system-out><![CDATA[2018-09-17 09:02:19 - [TEST_CASE][PASSED] - Test Cases/Android/TC/TC_Users: Test Cases/Android/TC/TC_Users
+
+2018-09-17 09:02:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 09:02:19 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 09:02:19 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 09:02:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 09:02:19 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/OpenApp: Test Cases/Android/Lib/OpenApp
+
+2018-09-17 09:02:19 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:03:28 - [MESSAGE][PASSED] - Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:03:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 09:03:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:03:28 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Onboarding: Test Cases/Android/Lib/Onboarding
+
+2018-09-17 09:03:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:03:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:03:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:03:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:03:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:03:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:03:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:03:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:03:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:03:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:03:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:03:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:03:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:03:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:03:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:03:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:03:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/VUEMenu/VUE' successfully
+
+2018-09-17 09:03:40 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/VUEMenu/VUE: Test Cases/Android/Lib/Menu/VUEMenu/VUE
+
+2018-09-17 09:03:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFVUE/android.widget.ImageButton2'
+
+2018-09-17 09:03:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:03:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFVUE/android.widget.ImageButton2'
+
+2018-09-17 09:03:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/VUEMenu/VUE' successfully
+
+2018-09-17 09:03:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:03:41 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/CloseApp: Test Cases/Android/Lib/CloseApp
+
+2018-09-17 09:03:41 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-17 09:03:45 - [MESSAGE][PASSED] - Close app successfully
+
+2018-09-17 09:03:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:03:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-17 09:03:45 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 09:03:45 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/TC/TC_VUE" classname="Test Cases/Android/TC/TC_VUE" status="PASSED">
+         <system-out><![CDATA[2018-09-17 09:03:47 - [TEST_CASE][PASSED] - Test Cases/Android/TC/TC_VUE: Test Cases/Android/TC/TC_VUE
+
+2018-09-17 09:03:47 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 09:03:47 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 09:03:47 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 09:03:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 09:03:47 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/OpenApp: Test Cases/Android/Lib/OpenApp
+
+2018-09-17 09:03:47 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:04:56 - [MESSAGE][PASSED] - Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:04:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 09:04:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:04:56 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Onboarding: Test Cases/Android/Lib/Onboarding
+
+2018-09-17 09:04:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:04:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:04:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:04:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:04:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:05:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:05:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:05:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:05:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:05:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:05:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:05:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:05:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:05:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:05:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:05:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:05:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/UsersMenu/User' successfully
+
+2018-09-17 09:05:07 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/UsersMenu/User: Test Cases/Android/Lib/Menu/UsersMenu/User
+
+2018-09-17 09:05:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton3'
+
+2018-09-17 09:05:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:05:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton3'
+
+2018-09-17 09:05:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/UsersMenu/User' successfully
+
+2018-09-17 09:05:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:05:07 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/CloseApp: Test Cases/Android/Lib/CloseApp
+
+2018-09-17 09:05:07 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-17 09:05:12 - [MESSAGE][PASSED] - Close app successfully
+
+2018-09-17 09:05:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:05:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-17 09:05:12 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 09:05:12 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/TC/TC_FUSEConfig" classname="Test Cases/Android/TC/TC_FUSEConfig" status="PASSED">
+         <system-out><![CDATA[2018-09-17 09:05:14 - [TEST_CASE][PASSED] - Test Cases/Android/TC/TC_FUSEConfig: Test Cases/Android/TC/TC_FUSEConfig
+
+2018-09-17 09:05:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 09:05:14 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 09:05:14 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 09:05:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 09:05:14 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/OpenApp: Test Cases/Android/Lib/OpenApp
+
+2018-09-17 09:05:14 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:06:20 - [MESSAGE][PASSED] - Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:06:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 09:06:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:06:20 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Onboarding: Test Cases/Android/Lib/Onboarding
+
+2018-09-17 09:06:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:06:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:06:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:06:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:06:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:06:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:06:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:06:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:06:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:06:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:06:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:06:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration' successfully
+
+2018-09-17 09:06:30 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration: Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration
+
+2018-09-17 09:06:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton4'
+
+2018-09-17 09:06:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton4'
+
+2018-09-17 09:06:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration' successfully
+
+2018-09-17 09:06:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/FUSEConfig' successfully
+
+2018-09-17 09:06:31 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/ConfigurationMenu/FUSEConfig: Test Cases/Android/Lib/Menu/ConfigurationMenu/FUSEConfig
+
+2018-09-17 09:06:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton4'
+
+2018-09-17 09:06:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton4'
+
+2018-09-17 09:06:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.LinearLayout8'
+
+2018-09-17 09:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.LinearLayout8'
+
+2018-09-17 09:06:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.TextView1'
+
+2018-09-17 09:06:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.TextView1'
+
+2018-09-17 09:06:37 - [TEST_STEP][PASSED] - setText: Text '192.168.1.150' has been set to element 'Object Repository/Android/WFSettings/android.widget.EditText0 - Enter fuse IP address'
+
+2018-09-17 09:06:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:38 - [MESSAGE][PASSED] - Text '192.168.1.150' has been set to element 'Object Repository/Android/WFSettings/android.widget.EditText0 - Enter fuse IP address'
+
+2018-09-17 09:06:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.Button0 - CONNECT'
+
+2018-09-17 09:06:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.Button0 - CONNECT'
+
+2018-09-17 09:06:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton0'
+
+2018-09-17 09:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton0'
+
+2018-09-17 09:06:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton0'
+
+2018-09-17 09:06:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:06:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton0'
+
+2018-09-17 09:06:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/FUSEConfig' successfully
+
+2018-09-17 09:06:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:06:48 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/CloseApp: Test Cases/Android/Lib/CloseApp
+
+2018-09-17 09:06:48 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-17 09:06:52 - [MESSAGE][PASSED] - Close app successfully
+
+2018-09-17 09:06:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:06:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-17 09:06:52 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 09:06:52 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android/TC/TC_VUEConfig" classname="Test Cases/Android/TC/TC_VUEConfig" status="PASSED">
+         <system-out><![CDATA[2018-09-17 09:06:54 - [TEST_CASE][PASSED] - Test Cases/Android/TC/TC_VUEConfig: Test Cases/Android/TC/TC_VUEConfig
+
+2018-09-17 09:06:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 09:06:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 09:06:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-17 09:06:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 09:06:55 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/OpenApp: Test Cases/Android/Lib/OpenApp
+
+2018-09-17 09:06:55 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:08:03 - [MESSAGE][PASSED] - Started app at: 'C:\temp\app-development-debug.apk'
+
+2018-09-17 09:08:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/OpenApp' successfully
+
+2018-09-17 09:08:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:08:03 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Onboarding: Test Cases/Android/Lib/Onboarding
+
+2018-09-17 09:08:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:08:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1'
+
+2018-09-17 09:08:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:08:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - LOGIN'
+
+2018-09-17 09:08:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:08:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageView1 (1)'
+
+2018-09-17 09:08:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:08:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button1 - YES'
+
+2018-09-17 09:08:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:08:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.Button0 - OK'
+
+2018-09-17 09:08:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Onboarding' successfully
+
+2018-09-17 09:08:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration' successfully
+
+2018-09-17 09:08:14 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration: Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration
+
+2018-09-17 09:08:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton4'
+
+2018-09-17 09:08:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WF1/android.widget.ImageButton4'
+
+2018-09-17 09:08:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/Configuration' successfully
+
+2018-09-17 09:08:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/FUSEConfig' successfully
+
+2018-09-17 09:08:15 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/ConfigurationMenu/FUSEConfig: Test Cases/Android/Lib/Menu/ConfigurationMenu/FUSEConfig
+
+2018-09-17 09:08:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton4'
+
+2018-09-17 09:08:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton4'
+
+2018-09-17 09:08:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.LinearLayout8'
+
+2018-09-17 09:08:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.LinearLayout8'
+
+2018-09-17 09:08:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.TextView1'
+
+2018-09-17 09:08:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.TextView1'
+
+2018-09-17 09:08:20 - [TEST_STEP][PASSED] - setText: Text '192.168.1.150' has been set to element 'Object Repository/Android/WFSettings/android.widget.EditText0 - Enter fuse IP address'
+
+2018-09-17 09:08:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:22 - [MESSAGE][PASSED] - Text '192.168.1.150' has been set to element 'Object Repository/Android/WFSettings/android.widget.EditText0 - Enter fuse IP address'
+
+2018-09-17 09:08:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.Button0 - CONNECT'
+
+2018-09-17 09:08:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.Button0 - CONNECT'
+
+2018-09-17 09:08:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton0'
+
+2018-09-17 09:08:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton0'
+
+2018-09-17 09:08:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton0'
+
+2018-09-17 09:08:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFSettings/android.widget.ImageButton0'
+
+2018-09-17 09:08:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/ConfigurationMenu/FUSEConfig' successfully
+
+2018-09-17 09:08:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/VUEMenu/CreateAnalisys' successfully
+
+2018-09-17 09:08:29 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/VUEMenu/CreateAnalisys: Test Cases/Android/Lib/Menu/VUEMenu/CreateAnalisys
+
+2018-09-17 09:08:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/Menu/VUEMenu/VUE' successfully
+
+2018-09-17 09:08:29 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/Menu/VUEMenu/VUE: Test Cases/Android/Lib/Menu/VUEMenu/VUE
+
+2018-09-17 09:08:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFVUE/android.widget.ImageButton2'
+
+2018-09-17 09:08:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFVUE/android.widget.ImageButton2'
+
+2018-09-17 09:08:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/VUEMenu/VUE' successfully
+
+2018-09-17 09:08:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/Create Analisys/android.widget.ImageView2'
+
+2018-09-17 09:08:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Create Analisys/android.widget.ImageView2'
+
+2018-09-17 09:08:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/Create Analisys/android.widget.LinearLayout4'
+
+2018-09-17 09:08:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Create Analisys/android.widget.LinearLayout4'
+
+2018-09-17 09:08:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFVUE/android.widget.ImageButton0'
+
+2018-09-17 09:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFVUE/android.widget.ImageButton0'
+
+2018-09-17 09:08:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/Create Analisys/android.widget.Button0 - OK'
+
+2018-09-17 09:08:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Create Analisys/android.widget.Button0 - OK'
+
+2018-09-17 09:08:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/Create Analisys/android.widget.ImageButton0'
+
+2018-09-17 09:08:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Create Analisys/android.widget.ImageButton0'
+
+2018-09-17 09:08:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/Create Analisys/android.widget.ImageButton1'
+
+2018-09-17 09:08:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:08:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/Create Analisys/android.widget.ImageButton1'
+
+2018-09-17 09:08:42 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2018-09-17 09:09:42 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2018-09-17 09:09:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android/WFVUE/android.widget.ImageView0'
+
+2018-09-17 09:09:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-17 09:09:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/WFVUE/android.widget.ImageView0'
+
+2018-09-17 09:09:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/Menu/VUEMenu/CreateAnalisys' successfully
+
+2018-09-17 09:09:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:09:45 - [TEST_CASE][PASSED] - Test Cases/Android/Lib/CloseApp: Test Cases/Android/Lib/CloseApp
+
+2018-09-17 09:09:45 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-17 09:09:48 - [MESSAGE][PASSED] - Close app successfully
+
+2018-09-17 09:09:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Android/Lib/CloseApp' successfully
+
+2018-09-17 09:09:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-17 09:09:48 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-17 09:09:48 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-17 08:58:06 - [TEST_SUITE][PASSED] - TS_Mobile: Test Cases/Android/TC/TC_VUEConfig]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

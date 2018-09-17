@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Close Browser</description>
+   <name>CloseBrowser</name>
+   <tag>WEB_FUSE</tag>
+   <comment></comment>
+   <testCaseGuid>45f1c7bc-85d2-481f-9bb4-6a051ce0e35b</testCaseGuid>
+</TestCaseEntity>
