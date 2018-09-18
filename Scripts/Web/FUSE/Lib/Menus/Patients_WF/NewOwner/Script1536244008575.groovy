@@ -41,15 +41,15 @@ WebUI.setText(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Aba
 
 WebUI.callTestCase(findTestCase('Web/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_mobilePhone'), '66666666')
+WebUI.setText(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_mobilePhone'), '+1658823606')
 
 WebUI.callTestCase(findTestCase('Web/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_homePhone'), '66666666')
+WebUI.setText(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_homePhone'), '+1658823606')
 
 WebUI.callTestCase(findTestCase('Web/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_workPhone'), '66666666')
+WebUI.setText(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_workPhone'), '+1658823606')
 
 WebUI.callTestCase(findTestCase('Web/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -61,7 +61,7 @@ WebUI.setText(findTestObject('Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Aba
 
 WebUI.callTestCase(findTestCase('Web/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/button_Save'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Web/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 

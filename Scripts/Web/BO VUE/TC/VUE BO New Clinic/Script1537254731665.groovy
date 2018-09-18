@@ -24,5 +24,12 @@ WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/Menus/Clinics'), [:], FailureHan
 'Queda pendiente de definición \r\n'
 WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/MenuBara/NuevaClinica/Nueva Clinica'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/MenuBara/NuevaClinica/CancelarClinica'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'\r\n'
+WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/MenuBara/NuevaClinica/Nueva Clinica'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/MenuBara/NuevaClinica/AceptarClinica'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Web/BO VUE/LIB/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 

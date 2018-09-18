@@ -45,5 +45,3 @@ WebUI.setText(findTestObject('Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE 
 WebUI.setText(findTestObject('WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Email _admin1Email'), 
     'agato@opentrends.net')
 
-WebUI.click(findTestObject('Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/button_Register'))
-

@@ -24,13 +24,9 @@ WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Patients_WF/Patients'), [:],
 
 WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/span_Reset_list-block__col'))
 
-WebUI.focus(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_Name'))
-
 WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/md-input-container_Name'))
 
 WebUI.setText(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/input_Name_name'), 'Alejandro')
-
-WebUI.focus(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/button_Abbreviated history_md-'))
 
 WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/button_Abbreviated history_md-'))
 
@@ -40,13 +36,9 @@ WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan 
 
 WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/md-input-container_Abbreviated'))
 
-WebUI.focus(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_Name'))
-
 WebUI.setText(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/input_Owner_owner'), 'ale')
 
 WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/li_Alex1 Gato'))
-
-WebUI.focus(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_SpeciesSpeciesAFRICANGRAYA'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/select_SpeciesAFRICANGRAYALLIG'), 
     'DEER', true)
