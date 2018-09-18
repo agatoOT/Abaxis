@@ -59,4 +59,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/BO VUE/TC/VUE BO Main Menu</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6335a892-23da-4b15-8c21-72f5ab7bfdd1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/BO VUE/TC/VUE BO Crear Clinica</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe530e8d-d225-406d-b164-d6b6f6e2c000</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/BO VUE/TC/VUE BO New Clinic</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

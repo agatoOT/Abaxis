@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>VETXML_REST</name>
+   <name>TS_VETXML_REST</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <lastRun>2018-09-12T10:46:36</lastRun>

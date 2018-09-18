@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Mobile,,,2018-09-17 21:20:54,2018-09-17 21:21:11,"17,585s",ERROR
+,,,,,,
+Test Cases/Android/TC/TC_LoginApp,,,2018-09-17 21:20:54,2018-09-17 21:20:57,"2,930s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-17 21:20:54,2018-09-17 21:20:54,"0,000s",PASSED
+callTestCase,,,2018-09-17 21:20:54,2018-09-17 21:20:55,"0,454s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-17 21:20:55,2018-09-17 21:20:55,"0,028s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_Configuration,,,2018-09-17 21:20:57,2018-09-17 21:21:00,"2,474s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-17 21:20:57,2018-09-17 21:20:57,"0,002s",PASSED
+callTestCase,,,2018-09-17 21:20:57,2018-09-17 21:20:57,"0,177s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-17 21:20:57,2018-09-17 21:20:58,"0,097s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_Historico,,,2018-09-17 21:21:00,2018-09-17 21:21:02,"2,315s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-17 21:21:00,2018-09-17 21:21:00,"0,016s",PASSED
+callTestCase,,,2018-09-17 21:21:00,2018-09-17 21:21:00,"0,097s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-17 21:21:00,2018-09-17 21:21:00,"0,000s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_Users,,,2018-09-17 21:21:02,2018-09-17 21:21:04,"2,395s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-17 21:21:02,2018-09-17 21:21:02,"0,002s",PASSED
+callTestCase,,,2018-09-17 21:21:02,2018-09-17 21:21:02,"0,090s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-17 21:21:02,2018-09-17 21:21:02,"0,006s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_VUE,,,2018-09-17 21:21:04,2018-09-17 21:21:07,"2,286s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-17 21:21:04,2018-09-17 21:21:04,"0,015s",PASSED
+callTestCase,,,2018-09-17 21:21:04,2018-09-17 21:21:05,"0,100s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-17 21:21:05,2018-09-17 21:21:05,"0,017s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_FUSEConfig,,,2018-09-17 21:21:07,2018-09-17 21:21:09,"2,450s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-17 21:21:07,2018-09-17 21:21:07,"0,000s",PASSED
+callTestCase,,,2018-09-17 21:21:07,2018-09-17 21:21:07,"0,259s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-17 21:21:07,2018-09-17 21:21:07,"0,030s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_VUEConfig,,,2018-09-17 21:21:09,2018-09-17 21:21:11,"2,262s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-17 21:21:09,2018-09-17 21:21:09,"0,016s",PASSED
+callTestCase,,,2018-09-17 21:21:09,2018-09-17 21:21:09,"0,086s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-17 21:21:09,2018-09-17 21:21:09,"0,039s",PASSED

@@ -1,0 +1,4 @@
+34
+00:02:53,191 --> 00:02:53,191
+1. Statement - println(testSuiteContext.getTestSuiteId())
+
