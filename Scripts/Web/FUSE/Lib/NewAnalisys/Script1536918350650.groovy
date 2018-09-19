@@ -20,28 +20,49 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.scrollToElement(findTestObject('WEB/FUSE/WF1/Prueba/Page_Abaxis VetScan Fuse/button_New Test'), 0)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('WEB/FUSE/WF1/Prueba/Page_Abaxis VetScan Fuse/button_New Test'))
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/span_Select patient_info__titl'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('WEB/FUSE/WF1/Prueba/Page_Abaxis VetScan Fuse/div_Select patient'))
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/span_Trisky'))
 
-WebUI.click(findTestObject('WEB/FUSE/WF1/Prueba/Page_Abaxis VetScan Fuse/span_Select patient_btn--helpe'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('WEB/FUSE/WF1/Prueba/Page_Abaxis VetScan Fuse/div_Roger OTHER 1234'))
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/div_Assign Patient ResetTrisky'))
 
-not_run: WebUI.selectOptionByLabel(findTestObject('WEB/FUSE/WF1/Prueba/Page_Abaxis VetScan Fuse/label_cPL Rapid Test'), 
-    'cPL Rapid Test', false)
+WebUI.delay(2)
 
-WebUI.clickImage(findTestObject('WEB/FUSE/WF1/Prueba/Page_Abaxis VetScan Fuse/label_cPL Rapid Test'))
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/h4_Select test'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('WEB/FUSE/WF1/Prueba/Page_Abaxis VetScan Fuse/button_Next'), 0)
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/span_cPL Rapid Test'))
 
-WebUI.click(findTestObject('WEB/FUSE/WF1/Prueba/Page_Abaxis VetScan Fuse/button_Next'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('WEB/FUSE/WF1/Prueba/Page_Abaxis VetScan Fuse/button_Order Test'))
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/span_FeLV_Fiv Rapid Test'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/span_Lyme Rapid Test'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/span_Flex4 Rapid Test'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/span_Heartworm Rapid Test'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/button_Next'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/button_Ok'))
+
+WebUI.delay(2)
 

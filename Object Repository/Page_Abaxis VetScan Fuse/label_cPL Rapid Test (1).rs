@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_cPL Rapid Test</name>
+   <name>label_cPL Rapid Test (1)</name>
    <tag></tag>
-   <elementGuidId>d8bcbb7f-f721-47a4-bd0b-2356b6cacc9d</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;test-card--c&quot;)/label[@class=&quot;card-option__label test-option--c icon--save&quot;][count(. | //*[@class = 'card-option__label test-option--c icon--save']) = count(//*[@class = 'card-option__label test-option--c icon--save'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>fe99b6ae-374c-4a5c-87ef-88f8270aec6f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -34,14 +28,14 @@
       <value>test-option--c</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>cPL Rapid Test</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

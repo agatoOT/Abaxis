@@ -25,3 +25,5 @@ WebUI.navigateToUrl(GlobalVariable.G_FUSE_BO_URL)
 
 WebUI.callTestCase(findTestCase('Web/Delay'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.maximizeWindow()
+

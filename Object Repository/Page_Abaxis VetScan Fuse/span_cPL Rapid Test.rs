@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_cPL Rapid Test</name>
+   <name>span_cPL Rapid Test</name>
    <tag></tag>
-   <elementGuidId>d8bcbb7f-f721-47a4-bd0b-2356b6cacc9d</elementGuidId>
+   <elementGuidId>171aa4a3-1c3d-4942-8f63-c6f4137943ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;test-card--c&quot;)/label[@class=&quot;card-option__label test-option--c icon--save&quot;][count(. | //*[@class = 'card-option__label test-option--c icon--save']) = count(//*[@class = 'card-option__label test-option--c icon--save'])]</value>
+         <value>id(&quot;test-card--c&quot;)/label[@class=&quot;card-option__label test-option--c icon--save&quot;]/span[@class=&quot;card-option__title ng-binding&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,21 +17,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>card-option__label test-option--c icon--save</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>for</name>
+      <name>class</name>
       <type>Main</type>
-      <value>test-option--c</value>
+      <value>card-option__title ng-binding</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,36 +38,42 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;test-card--c&quot;)/label[@class=&quot;card-option__label test-option--c icon--save&quot;]</value>
+      <value>id(&quot;test-card--c&quot;)/label[@class=&quot;card-option__label test-option--c icon--save&quot;]/span[@class=&quot;card-option__title ng-binding&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='test-card--c']/label</value>
+      <value>//div[@id='test-card--c']/label/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[22]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[22]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Isaac', &quot;'&quot;, 's mobile - OFF')])[6]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Isaac', &quot;'&quot;, 's mobile - OFF')])[6]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='cPL Rapid Test'])[2]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='cPL Rapid Test'])[2]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change analyzer'])[23]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[23]/div/label</value>
+      <value>//li[23]/div/label/span</value>
    </webElementXpaths>
 </WebElementEntity>

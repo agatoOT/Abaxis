@@ -18,13 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Web/FUSE/Lib/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Web/FUSE/Lib/LoginFUSE'), [:], FailureHandling.STOP_ON_FAILURE)
 
 '\r\n\r\n'
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/NewTest_WF/NewTest'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'\r\n\r\n'
 WebUI.callTestCase(findTestCase('Web/FUSE/Lib/NewAnalisys'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(10)
 
 WebUI.callTestCase(findTestCase('Web/FUSE/Lib/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 

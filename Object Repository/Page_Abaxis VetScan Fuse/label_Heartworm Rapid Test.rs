@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Roger OTHER 1234</name>
+   <name>label_Heartworm Rapid Test</name>
    <tag></tag>
-   <elementGuidId>017888bd-a8f8-4f15-b389-5654b8d10c40</elementGuidId>
+   <elementGuidId>5a9fffc7-c5cb-40f6-85de-dd35cb6b06ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'submenu__option__content submenu__option__content__modal' and (text() = 'Roger OTHER 1234' or . = 'Roger OTHER 1234')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='test-card--h']/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,51 +17,64 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>submenu__option__content submenu__option__content__modal</value>
+      <value>card-option__label test-option--h icon--save</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>test-option--h</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Roger OTHER 1234</value>
+      <value>Heartworm Rapid Test</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;1234&quot;)/div[@class=&quot;submenu__option__content submenu__option__content__modal&quot;]</value>
+      <value>id(&quot;test-card--h&quot;)/label[@class=&quot;card-option__label test-option--h icon--save&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//a[@id='1234']/div</value>
+      <value>//div[@id='test-card--h']/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[24]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[25]/following::div[13]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Isaac', &quot;'&quot;, 's mobile - OFF')])[8]/following::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Heartworm Rapid Test'])[2]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//a/div</value>
+      <value>//li[25]/div/label</value>
    </webElementXpaths>
 </WebElementEntity>
