@@ -4,7 +4,7 @@
    <name>TS_Web_FUSE</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-19T12:20:21</lastRun>
+   <lastRun>2018-09-20T12:34:44</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,12 +15,12 @@
       <guid>6acfd12a-78dd-4b5b-9eab-72461357e1dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web/FUSE/TC/TC_NewOwner</testCaseId>
+      <testCaseId>Test Cases/Web/FUSE/TC/4.FUSE Webapp - Creacion de un Owner</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d3a1ba74-fc47-45c2-a7de-190731a33a8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web/FUSE/TC/TC_NewTest</testCaseId>
+      <testCaseId>Test Cases/Web/FUSE/TC/6.FUSE Webapp - Solicitar un analisis un Owner</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

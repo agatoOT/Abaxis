@@ -15,6 +15,6 @@
       <guid>d13124ab-b40c-409c-ba34-b17c7dabb32d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web/FUSE/TC/TC_NewTest</testCaseId>
+      <testCaseId>Test Cases/Web/FUSE/TC/6.FUSE Webapp - Solicitar un analisis un Owner</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

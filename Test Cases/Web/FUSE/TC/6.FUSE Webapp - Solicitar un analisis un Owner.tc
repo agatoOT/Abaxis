@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>VUE BO New Clinic</name>
+   <name>6.FUSE Webapp - Solicitar un analisis un Owner</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>24f05e16-dddb-43e3-8add-053e1d5565c1</testCaseGuid>
+   <testCaseGuid>80c29545-c317-4d33-99a7-c9e19f520c58</testCaseGuid>
 </TestCaseEntity>

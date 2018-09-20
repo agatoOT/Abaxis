@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_NewTest</name>
+   <name>2.FUSE BO - Crear usuario de veterinaria</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>80c29545-c317-4d33-99a7-c9e19f520c58</testCaseGuid>
+   <testCaseGuid>24f05e16-dddb-43e3-8add-053e1d5565c1</testCaseGuid>
 </TestCaseEntity>

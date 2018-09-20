@@ -4,7 +4,7 @@
    <name>TS_AfterApp</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-19T12:20:21</lastRun>
+   <lastRun>2018-09-20T12:34:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,6 +15,6 @@
       <guid>609942a9-a574-4edc-9b9c-a325427f3949</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web/FUSE/TC/TC_NewTest</testCaseId>
+      <testCaseId>Test Cases/Web/FUSE/TC/6.FUSE Webapp - Solicitar un analisis un Owner</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

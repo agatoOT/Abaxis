@@ -57,6 +57,6 @@
       <guid>fd07a917-7f0a-4266-bf0a-d7cc496f45f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/TC/TC_VUE_NewAnalisys</testCaseId>
+      <testCaseId>Test Cases/Android/TC/8.VUE-APP - SINCRONIZAR con el FUSE y VUE</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

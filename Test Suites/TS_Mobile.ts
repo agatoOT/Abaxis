@@ -4,7 +4,7 @@
    <name>TS_Mobile</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-19T12:20:21</lastRun>
+   <lastRun>2018-09-20T12:34:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,6 +15,6 @@
       <guid>eb7d959b-0edd-4292-a96b-48908b3a44fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/TC/TC_VUE_NewAnalisys</testCaseId>
+      <testCaseId>Test Cases/Android/TC/8.VUE-APP - SINCRONIZAR con el FUSE y VUE</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

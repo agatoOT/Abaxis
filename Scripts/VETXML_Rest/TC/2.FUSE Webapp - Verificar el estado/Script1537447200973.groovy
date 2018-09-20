@@ -19,12 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Web/FUSE/Lib/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Web/FUSE/Lib/LoginFUSE'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Está Bloqueado y escribe el nombre del paciente\r\n'
-WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Patients_WF/NewPatients'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Web/FUSE/Lib/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('VETXML_Rest/LIB/Get Order Status'), [:], FailureHandling.STOP_ON_FAILURE)
 
