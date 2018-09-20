@@ -4,7 +4,7 @@
    <name>TS_Mobile</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-20T12:34:45</lastRun>
+   <lastRun>2018-09-20T16:24:32</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
