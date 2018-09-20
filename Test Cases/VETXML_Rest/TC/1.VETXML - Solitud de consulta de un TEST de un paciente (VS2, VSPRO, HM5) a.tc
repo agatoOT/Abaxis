@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1.VETXML - Solitud de consulta de un TEST de un paciente (VS2, VSPRO, HM5) </name>
+   <name>1.VETXML - Solitud de consulta de un TEST de un paciente (VS2, VSPRO, HM5) a</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f929828a-6f76-4568-babe-b832a810d79f</testCaseGuid>
+   <testCaseGuid>3e47cb3b-13e8-4ef2-8282-816061c3ea5f</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>94b8fd31-3d7f-43cc-ac3d-4ef59fdf6be5</id>
+      <id>677a6fb9-9782-4cad-8e0e-bb57975280fb</id>
       <masked>false</masked>
       <name>response</name>
    </variable>
