@@ -1,0 +1,20 @@
+1
+00:00:00,095 --> 00:00:00,096
+1. callTestCase
+
+2
+00:00:00,422 --> 00:00:00,424
+1. Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VETXML_REST/POST Order FUSE, [url:internal.GlobalVariable.BE_url, PracticeRef:1234ABEK, OwnerID:Alex, VetID:PruebaAuto, AnimalName:Alejandro]))
+
+3
+00:00:21,758 --> 00:00:21,758
+1. Statement - println(testCaseContext.getTestCaseId())
+
+4
+00:00:21,770 --> 00:00:21,773
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+5
+00:00:23,827 --> 00:00:23,829
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Android/Lib/OpenApp'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Android/TC/TC_VUEConfig'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Android/TC/TC_VUE_NewAnalisys'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Android/Lib/Menu/HistoricoMenu/Historico'), [:], FailureHandling.STOP_ON_FAILURE)
 

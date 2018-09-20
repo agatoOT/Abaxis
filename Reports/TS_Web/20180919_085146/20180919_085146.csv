@@ -1,0 +1,93 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Web,Chrome 68.0.3440.106,,2018-09-19 08:51:48,2018-09-19 08:54:02,"2m - 14,521s",FAILED
+,,,,,,
+Test Cases/Web/BO FUSE/TC/TC_Login,Chrome 68.0.3440.106,,2018-09-19 08:51:48,2018-09-19 08:51:59,"10,722s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 08:51:48,2018-09-19 08:51:48,"0,021s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:51:49,2018-09-19 08:51:54,"5,810s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:51:54,2018-09-19 08:51:56,"1,607s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:51:56,2018-09-19 08:51:57,"0,948s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 08:51:57,2018-09-19 08:51:57,"0,014s",PASSED
+,,,,,,
+Test Cases/Web/FUSE/TC/TC_LoginFUSE,Chrome 68.0.3440.106,,2018-09-19 08:51:59,2018-09-19 08:52:10,"10,842s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 08:51:59,2018-09-19 08:51:59,"0,001s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:51:59,2018-09-19 08:52:06,"6,826s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:06,2018-09-19 08:52:07,"0,777s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:07,2018-09-19 08:52:08,"0,945s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:08,2018-09-19 08:52:08,"0,034s",PASSED
+,,,,,,
+Test Cases/Web/BO FUSE/TC/TC_Users,Chrome 68.0.3440.106,,2018-09-19 08:52:10,2018-09-19 08:52:21,"10,642s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:10,2018-09-19 08:52:10,"0,061s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:10,2018-09-19 08:52:14,"3,989s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:14,2018-09-19 08:52:15,"1,037s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:15,2018-09-19 08:52:16,"0,742s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:16,2018-09-19 08:52:17,"1,617s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:17,2018-09-19 08:52:18,"0,245s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:18,2018-09-19 08:52:18,"0,798s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:18,2018-09-19 08:52:18,"0,009s",PASSED
+,,,,,,
+Test Cases/Web/FUSE/TC/TC_Navigation,Chrome 68.0.3440.106,,2018-09-19 08:52:21,2018-09-19 08:52:40,"19,473s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:21,2018-09-19 08:52:21,"0,016s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:21,2018-09-19 08:52:28,"7,134s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:28,2018-09-19 08:52:34,"6,581s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:34,2018-09-19 08:52:38,"3,285s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:38,2018-09-19 08:52:38,"0,329s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:38,2018-09-19 08:52:38,"0,017s",PASSED
+,,,,,,
+Test Cases/Web/FUSE/TC/TC_NewOwner,Chrome 68.0.3440.106,,2018-09-19 08:52:40,2018-09-19 08:52:52,"12,244s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:40,2018-09-19 08:52:40,"0,015s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:40,2018-09-19 08:52:47,"7,216s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:47,2018-09-19 08:52:48,"0,595s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:48,2018-09-19 08:52:50,"2,173s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:50,2018-09-19 08:52:50,"0,060s",PASSED
+,,,,,,
+Test Cases/Web/BO VUE/TC/VUE BO Main Screen,Chrome 68.0.3440.106,,2018-09-19 08:52:52,2018-09-19 08:53:08,"16,065s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:52,2018-09-19 08:52:52,"0,016s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:52,2018-09-19 08:52:57,"4,986s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:52:57,2018-09-19 08:52:59,"1,259s",PASSED
+callTestCase,Chrome 68.0.3440.106,"Queda pendiente de definición 
+",2018-09-19 08:52:59,2018-09-19 08:53:05,"6,742s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:05,2018-09-19 08:53:06,"0,879s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:06,2018-09-19 08:53:06,"0,012s",PASSED
+,,,,,,
+Test Cases/Web/BO VUE/TC/VUE BO Menus Compleate,Chrome 68.0.3440.106,,2018-09-19 08:53:08,2018-09-19 08:53:25,"17,010s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:08,2018-09-19 08:53:08,"0,054s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:09,2018-09-19 08:53:13,"4,384s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:13,2018-09-19 08:53:14,"0,949s",PASSED
+callTestCase,Chrome 68.0.3440.106,"Queda pendiente de definición 
+",2018-09-19 08:53:14,2018-09-19 08:53:18,"4,197s",PASSED
+callTestCase,Chrome 68.0.3440.106,"Queda pendiente de definición 
+",2018-09-19 08:53:18,2018-09-19 08:53:22,"4,438s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:22,2018-09-19 08:53:23,"0,756s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:23,2018-09-19 08:53:23,"0,011s",PASSED
+,,,,,,
+Test Cases/Web/BO VUE/TC/VUE BO Main Menu,Chrome 68.0.3440.106,,2018-09-19 08:53:25,2018-09-19 08:53:39,"13,971s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:25,2018-09-19 08:53:25,"0,019s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:25,2018-09-19 08:53:31,"5,382s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:31,2018-09-19 08:53:32,"1,152s",PASSED
+callTestCase,Chrome 68.0.3440.106,"Queda pendiente de definición 
+",2018-09-19 08:53:32,2018-09-19 08:53:36,"4,395s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:36,2018-09-19 08:53:37,"0,856s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:37,2018-09-19 08:53:37,"0,013s",PASSED
+,,,,,,
+Test Cases/Web/BO VUE/TC/VUE BO Crear Clinica,Chrome 68.0.3440.106,,2018-09-19 08:53:39,2018-09-19 08:53:48,"8,848s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:39,2018-09-19 08:53:39,"0,010s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:39,2018-09-19 08:53:44,"4,453s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:44,2018-09-19 08:53:45,"0,893s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:45,2018-09-19 08:53:45,"0,514s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:45,2018-09-19 08:53:46,"0,815s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:46,2018-09-19 08:53:46,"0,010s",PASSED
+,,,,,,
+Test Cases/Web/BO VUE/TC/VUE BO New Clinic,Chrome 68.0.3440.106,,2018-09-19 08:53:48,2018-09-19 08:54:02,"14,141s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:48,2018-09-19 08:53:48,"0,010s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:48,2018-09-19 08:53:53,"4,575s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:53,2018-09-19 08:53:54,"0,887s",PASSED
+callTestCase,Chrome 68.0.3440.106,"Queda pendiente de definición 
+",2018-09-19 08:53:54,2018-09-19 08:53:54,"0,375s",PASSED
+callTestCase,Chrome 68.0.3440.106,"Queda pendiente de definición 
+",2018-09-19 08:53:54,2018-09-19 08:53:56,"2,058s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:56,2018-09-19 08:53:57,"0,440s",PASSED
+callTestCase,Chrome 68.0.3440.106,"
+",2018-09-19 08:53:57,2018-09-19 08:53:59,"2,179s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:53:59,2018-09-19 08:54:00,"0,729s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 08:54:00,2018-09-19 08:54:00,"0,758s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 08:54:00,2018-09-19 08:54:00,"0,010s",PASSED

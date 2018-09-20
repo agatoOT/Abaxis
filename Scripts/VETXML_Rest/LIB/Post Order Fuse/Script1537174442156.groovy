@@ -18,13 +18,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-response = WS.sendRequest(findTestObject('VETXML_REST/POST Order FUSE', [('url') : GlobalVariable.BE_url, ('PracticeRef') : '1234ABEK'
-            , ('OwnerID') : 'Alex', ('VetID') : 'PruebaAuto', ('AnimalName') : 'Alejandro']))
+response = WS.sendRequest(findTestObject('VETXML_REST/GET Order VUE', [('url') : GlobalVariable.BE_url]))
 
 WS.verifyResponseStatusCode(response, 200)
-
-not_run: WS.verifyElementPropertyValue(response, '[0].username', 'John Smith')
-
-toString()
 

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Web_BO,Chrome 68.0.3440.106,,2018-09-19 09:07:04,2018-09-19 09:07:20,"16,174s",PASSED
+,,,,,,
+Test Cases/Web/BO VUE/TC/VUE BO New Clinic,Chrome 68.0.3440.106,,2018-09-19 09:07:05,2018-09-19 09:07:20,"15,673s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:05,2018-09-19 09:07:05,"0,110s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:05,2018-09-19 09:07:11,"5,703s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:11,2018-09-19 09:07:12,"1,336s",PASSED
+callTestCase,Chrome 68.0.3440.106,"Queda pendiente de definición 
+",2018-09-19 09:07:12,2018-09-19 09:07:13,"0,439s",PASSED
+callTestCase,Chrome 68.0.3440.106,"Queda pendiente de definición 
+",2018-09-19 09:07:13,2018-09-19 09:07:15,"2,086s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:15,2018-09-19 09:07:15,"0,426s",PASSED
+callTestCase,Chrome 68.0.3440.106,"
+",2018-09-19 09:07:15,2018-09-19 09:07:17,"1,860s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:17,2018-09-19 09:07:17,"0,396s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:17,2018-09-19 09:07:18,"0,870s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:18,2018-09-19 09:07:18,"0,013s",PASSED

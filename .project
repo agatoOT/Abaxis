@@ -15,6 +15,58 @@
 		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-1065353657106116555.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Agato/AppData/Local/Temp/Katalon/Web Services/kat-1065353657106116555.groovy</location>
+		</link>
+		<link>
+			<name>kat-1173491783617342064.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Agato/AppData/Local/Temp/Katalon/Web Services/kat-1173491783617342064.groovy</location>
+		</link>
+		<link>
+			<name>kat-1725985716055116208.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Agato/AppData/Local/Temp/Katalon/Web Services/kat-1725985716055116208.groovy</location>
+		</link>
+		<link>
+			<name>kat-4288160352663499904.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Agato/AppData/Local/Temp/Katalon/Web Services/kat-4288160352663499904.groovy</location>
+		</link>
+		<link>
+			<name>kat-6623201492464663459.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Agato/AppData/Local/Temp/Katalon/Web Services/kat-6623201492464663459.groovy</location>
+		</link>
+		<link>
+			<name>kat-691444549310418618.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Agato/AppData/Local/Temp/Katalon/Web Services/kat-691444549310418618.groovy</location>
+		</link>
+		<link>
+			<name>kat-7760274995759107634.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Agato/AppData/Local/Temp/Katalon/Web Services/kat-7760274995759107634.groovy</location>
+		</link>
+		<link>
+			<name>kat-7985180746581930398.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Agato/AppData/Local/Temp/Katalon/Web Services/kat-7985180746581930398.groovy</location>
+		</link>
+		<link>
+			<name>kat-8986218254991849348.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Agato/AppData/Local/Temp/Katalon/Web Services/kat-8986218254991849348.groovy</location>
+		</link>
+		<link>
+			<name>kat-9145144131934954650.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Agato/AppData/Local/Temp/Katalon/Web Services/kat-9145144131934954650.groovy</location>
+		</link>
+	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1536220154794</id>

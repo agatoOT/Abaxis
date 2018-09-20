@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Web_FUSE" time="31" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Web_FUSE" tests="2" failures="0" errors="0" time="31" timestamp="2018-09-19 09:07:29" hostname="Agato - 192.168.1.4" id="Test Suites/TS_Web_FUSE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_Web_FUSE\\20180919_090701"/>
+         <property name="logFiles" value="C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_Web_FUSE\\20180919_090701\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Agato - 192.168.1.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="229db5bcbbf62cba45855787f827ba84"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web/FUSE/TC/TC_NewOwner" classname="Test Cases/Web/FUSE/TC/TC_NewOwner" status="PASSED">
+         <system-out><![CDATA[2018-09-19 09:07:29 - [TEST_CASE][PASSED] - Test Cases/Web/FUSE/TC/TC_NewOwner: Test Cases/Web/FUSE/TC/TC_NewOwner
+
+2018-09-19 09:07:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-19 09:07:29 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-19 09:07:29 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-19 09:07:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/FUSE/Lib/OpenBrowser' successfully
+
+2018-09-19 09:07:30 - [TEST_CASE][PASSED] - Test Cases/Web/FUSE/Lib/OpenBrowser: Test Cases/Web/FUSE/Lib/OpenBrowser
+
+2018-09-19 09:07:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-19 09:07:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-19 09:07:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.1.150:8080/' successfully
+
+2018-09-19 09:07:36 - [MESSAGE][PASSED] - Navigate to 'http://192.168.1.150:8080/' successfully
+
+2018-09-19 09:07:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:36 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:36 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-19 09:07:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-19 09:07:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/FUSE/Lib/OpenBrowser' successfully
+
+2018-09-19 09:07:37 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/FUSE/Lib/LoginFUSE' successfully
+
+2018-09-19 09:07:37 - [TEST_CASE][PASSED] - Test Cases/Web/FUSE/Lib/LoginFUSE: Test Cases/Web/FUSE/Lib/LoginFUSE
+
+2018-09-19 09:07:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/form_Login' is clicked on
+
+2018-09-19 09:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/form_Login' is clicked on
+
+2018-09-19 09:07:38 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_username'
+
+2018-09-19 09:07:38 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_username'
+
+2018-09-19 09:07:38 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_password'
+
+2018-09-19 09:07:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_password'
+
+2018-09-19 09:07:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/button_Login' is clicked on
+
+2018-09-19 09:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/button_Login' is clicked on
+
+2018-09-19 09:07:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/FUSE/Lib/LoginFUSE' successfully
+
+2018-09-19 09:07:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/FUSE/Lib/Menus/Patients_WF/NewOwner' successfully
+
+2018-09-19 09:07:38 - [TEST_CASE][PASSED] - Test Cases/Web/FUSE/Lib/Menus/Patients_WF/NewOwner: Test Cases/Web/FUSE/Lib/Menus/Patients_WF/NewOwner
+
+2018-09-19 09:07:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/FUSE/Lib/Menus/Patients_WF/Patients' successfully
+
+2018-09-19 09:07:38 - [TEST_CASE][PASSED] - Test Cases/Web/FUSE/Lib/Menus/Patients_WF/Patients: Test Cases/Web/FUSE/Lib/Menus/Patients_WF/Patients
+
+2018-09-19 09:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/Page_Abaxis VetScan Fuse/a_Patients' is clicked on
+
+2018-09-19 09:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/Page_Abaxis VetScan Fuse/a_Patients' is clicked on
+
+2018-09-19 09:07:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/FUSE/Lib/Menus/Patients_WF/Patients' successfully
+
+2018-09-19 09:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/a_sidebar__slider__arrowlink' is clicked on
+
+2018-09-19 09:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/a_sidebar__slider__arrowlink' is clicked on
+
+2018-09-19 09:07:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:40 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:40 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/span_New Owner' is clicked on
+
+2018-09-19 09:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/span_New Owner' is clicked on
+
+2018-09-19 09:07:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:41 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:41 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:41 - [TEST_STEP][PASSED] - setText: Text 'Alex1' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_firstName'
+
+2018-09-19 09:07:41 - [MESSAGE][PASSED] - Text 'Alex1' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_firstName'
+
+2018-09-19 09:07:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:41 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:41 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:41 - [TEST_STEP][PASSED] - setText: Text 'Gato' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_lastName'
+
+2018-09-19 09:07:41 - [MESSAGE][PASSED] - Text 'Gato' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_lastName'
+
+2018-09-19 09:07:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:41 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:41 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:41 - [TEST_STEP][PASSED] - setText: Text 'agato@opentrends.net' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_email'
+
+2018-09-19 09:07:42 - [MESSAGE][PASSED] - Text 'agato@opentrends.net' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_email'
+
+2018-09-19 09:07:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:42 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:42 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:42 - [TEST_STEP][PASSED] - setText: Text '+1658823606' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_mobilePhone'
+
+2018-09-19 09:07:42 - [MESSAGE][PASSED] - Text '+1658823606' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_mobilePhone'
+
+2018-09-19 09:07:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:42 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:42 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:42 - [TEST_STEP][PASSED] - setText: Text '+1658823606' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_homePhone'
+
+2018-09-19 09:07:42 - [MESSAGE][PASSED] - Text '+1658823606' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_homePhone'
+
+2018-09-19 09:07:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:42 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:42 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:42 - [TEST_STEP][PASSED] - setText: Text '+1658823606' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_workPhone'
+
+2018-09-19 09:07:42 - [MESSAGE][PASSED] - Text '+1658823606' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_workPhone'
+
+2018-09-19 09:07:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:43 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaa' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_address'
+
+2018-09-19 09:07:43 - [MESSAGE][PASSED] - Text 'aaaaaaaaa' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_address'
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:43 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaa' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_location'
+
+2018-09-19 09:07:43 - [MESSAGE][PASSED] - Text 'aaaaaaaa' is set on object 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/input_location'
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:43 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/button_Save' is clicked on
+
+2018-09-19 09:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/FUSE/WF1/PatientsWF/Page_Abaxis VetScan Fuse/button_Save' is clicked on
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:43 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/FUSE/Lib/Menus/Patients_WF/NewOwner' successfully
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/FUSE/Lib/CloseBrowser' successfully
+
+2018-09-19 09:07:43 - [TEST_CASE][PASSED] - Test Cases/Web/FUSE/Lib/CloseBrowser: Test Cases/Web/FUSE/Lib/CloseBrowser
+
+2018-09-19 09:07:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-19 09:07:44 - [MESSAGE][PASSED] - Browser is closed
+
+2018-09-19 09:07:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/FUSE/Lib/CloseBrowser' successfully
+
+2018-09-19 09:07:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-19 09:07:44 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-19 09:07:44 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/FUSE/TC/TC_NewTest" classname="Test Cases/Web/FUSE/TC/TC_NewTest" status="PASSED">
+         <system-out><![CDATA[2018-09-19 09:07:46 - [TEST_CASE][PASSED] - Test Cases/Web/FUSE/TC/TC_NewTest: Test Cases/Web/FUSE/TC/TC_NewTest
+
+2018-09-19 09:07:46 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-19 09:07:46 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-19 09:07:46 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-19 09:07:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/FUSE/Lib/OpenBrowser' successfully
+
+2018-09-19 09:07:47 - [TEST_CASE][PASSED] - Test Cases/Web/FUSE/Lib/OpenBrowser: Test Cases/Web/FUSE/Lib/OpenBrowser
+
+2018-09-19 09:07:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-19 09:07:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-19 09:07:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.1.150:8080/' successfully
+
+2018-09-19 09:07:56 - [MESSAGE][PASSED] - Navigate to 'http://192.168.1.150:8080/' successfully
+
+2018-09-19 09:07:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:56 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-19 09:07:56 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-19 09:07:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-19 09:07:56 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-19 09:07:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-19 09:07:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/FUSE/Lib/OpenBrowser' successfully
+
+2018-09-19 09:07:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/FUSE/Lib/LoginFUSE' successfully
+
+2018-09-19 09:07:57 - [TEST_CASE][PASSED] - Test Cases/Web/FUSE/Lib/LoginFUSE: Test Cases/Web/FUSE/Lib/LoginFUSE
+
+2018-09-19 09:07:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/form_Login' is clicked on
+
+2018-09-19 09:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/form_Login' is clicked on
+
+2018-09-19 09:07:57 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_username'
+
+2018-09-19 09:07:57 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_username'
+
+2018-09-19 09:07:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_password'
+
+2018-09-19 09:07:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/input_password'
+
+2018-09-19 09:07:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/button_Login' is clicked on
+
+2018-09-19 09:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/button_Login' is clicked on
+
+2018-09-19 09:07:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/FUSE/Lib/LoginFUSE' successfully
+
+2018-09-19 09:07:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/FUSE/Lib/Menus/NewTest_WF/NewTest' successfully
+
+2018-09-19 09:07:57 - [TEST_CASE][PASSED] - Test Cases/Web/FUSE/Lib/Menus/NewTest_WF/NewTest: Test Cases/Web/FUSE/Lib/Menus/NewTest_WF/NewTest
+
+2018-09-19 09:07:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/Page_Abaxis VetScan Fuse/button_New Test' is clicked on
+
+2018-09-19 09:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/FUSE/WF1/Page_Abaxis VetScan Fuse/Page_Abaxis VetScan Fuse/button_New Test' is clicked on
+
+2018-09-19 09:07:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/FUSE/Lib/Menus/NewTest_WF/NewTest' successfully
+
+2018-09-19 09:07:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/FUSE/Lib/CloseBrowser' successfully
+
+2018-09-19 09:07:58 - [TEST_CASE][PASSED] - Test Cases/Web/FUSE/Lib/CloseBrowser: Test Cases/Web/FUSE/Lib/CloseBrowser
+
+2018-09-19 09:07:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-19 09:07:59 - [MESSAGE][PASSED] - Browser is closed
+
+2018-09-19 09:07:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/FUSE/Lib/CloseBrowser' successfully
+
+2018-09-19 09:07:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-19 09:07:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-19 09:07:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-19 09:07:29 - [TEST_SUITE][PASSED] - TS_Web_FUSE: Test Cases/Web/FUSE/TC/TC_NewTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Web_FUSE,Chrome 68.0.3440.106,,2018-09-19 09:07:29,2018-09-19 09:08:01,"31,896s",PASSED
+,,,,,,
+Test Cases/Web/FUSE/TC/TC_NewOwner,Chrome 68.0.3440.106,,2018-09-19 09:07:29,2018-09-19 09:07:46,"17,022s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:29,2018-09-19 09:07:29,"0,014s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:30,2018-09-19 09:07:37,"7,682s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:37,2018-09-19 09:07:38,"0,821s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:38,2018-09-19 09:07:43,"4,953s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:43,2018-09-19 09:07:44,"1,163s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:44,2018-09-19 09:07:44,"0,073s",PASSED
+,,,,,,
+Test Cases/Web/FUSE/TC/TC_NewTest,Chrome 68.0.3440.106,,2018-09-19 09:07:46,2018-09-19 09:08:01,"14,512s",PASSED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:46,2018-09-19 09:07:46,"0,021s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:47,2018-09-19 09:07:57,"10,194s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:57,2018-09-19 09:07:57,"0,408s",PASSED
+callTestCase,Chrome 68.0.3440.106,"
+",2018-09-19 09:07:57,2018-09-19 09:07:58,"0,830s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:58,2018-09-19 09:07:59,"0,795s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 09:07:59,2018-09-19 09:07:59,"0,053s",PASSED

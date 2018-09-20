@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Mobile,,,2018-09-19 09:08:10,2018-09-19 09:10:54,"2m - 44,002s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_VUE_NewAnalisys,,,2018-09-19 09:08:11,2018-09-19 09:10:54,"2m - 43,656s",PASSED
+Start listener action : sampleBeforeTestCase,,,2018-09-19 09:08:11,2018-09-19 09:08:11,"0,013s",PASSED
+callTestCase,,,2018-09-19 09:08:11,2018-09-19 09:09:10,"59,561s",PASSED
+callTestCase,,,2018-09-19 09:09:10,2018-09-19 09:09:21,"10,846s",PASSED
+callTestCase,,,2018-09-19 09:09:21,2018-09-19 09:09:22,"0,583s",PASSED
+callTestCase,,,2018-09-19 09:09:22,2018-09-19 09:09:36,"13,838s",PASSED
+callTestCase,,,2018-09-19 09:09:36,2018-09-19 09:10:48,"1m - 12,784s",PASSED
+callTestCase,,,2018-09-19 09:10:48,2018-09-19 09:10:52,"3,678s",PASSED
+Start listener action : sampleAfterTestCase,,,2018-09-19 09:10:52,2018-09-19 09:10:52,"0,015s",PASSED

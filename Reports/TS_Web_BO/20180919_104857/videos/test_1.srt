@@ -1,0 +1,4 @@
+45
+00:00:15,646 --> 00:00:15,646
+1. Statement - println(testSuiteContext.getTestSuiteId())
+

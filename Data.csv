@@ -1,0 +1,5 @@
+aaaa	aaa	Url	Field under test	Data Send	Data Expected
+		http://192.168.1.150:8080/vetsync/v1/orders	PracticeRef	VUEOrder12346	
+		http://192.168.1.150:8080/vetsync/v1/orders	OwnerID	Alex	
+		http://192.168.1.150:8080/vetsync/v1/orders	VetID	PruebaAuto	
+		http://192.168.1.150:8080/vetsync/v1/orders	AnimalName	Alejandro	

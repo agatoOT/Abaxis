@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Web_FUSE,Firefox 61.0,,2018-09-19 12:18:56,2018-09-19 12:19:09,"13,046s",FAILED
+,,,,,,
+Test Cases/Web/FUSE/TC/TC_NewOwner,Firefox 61.0,,2018-09-19 12:18:57,2018-09-19 12:19:04,"6,876s",FAILED
+Start listener action : sampleBeforeTestCase,Firefox 61.0,,2018-09-19 12:18:57,2018-09-19 12:18:57,"0,014s",PASSED
+callTestCase,Firefox 61.0,,2018-09-19 12:18:57,2018-09-19 12:19:02,"4,453s",FAILED
+Start listener action : sampleAfterTestCase,Firefox 61.0,,2018-09-19 12:19:02,2018-09-19 12:19:02,"0,091s",PASSED
+,,,,,,
+Test Cases/Web/FUSE/TC/TC_NewTest,Firefox 61.0,,2018-09-19 12:19:04,2018-09-19 12:19:09,"5,486s",FAILED
+Start listener action : sampleBeforeTestCase,Firefox 61.0,,2018-09-19 12:19:04,2018-09-19 12:19:04,"0,016s",PASSED
+callTestCase,Firefox 61.0,,2018-09-19 12:19:04,2018-09-19 12:19:07,"3,216s",FAILED
+Start listener action : sampleAfterTestCase,Firefox 61.0,,2018-09-19 12:19:07,2018-09-19 12:19:07,"0,025s",PASSED

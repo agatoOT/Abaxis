@@ -1,0 +1,76 @@
+1
+00:00:00,087 --> 00:00:00,089
+1. callTestCase
+
+2
+00:00:00,362 --> 00:00:00,364
+1. openBrowser
+
+3
+00:00:05,153 --> 00:00:05,154
+5. navigateToUrl
+
+4
+00:00:08,553 --> 00:00:08,554
+9. callTestCase
+
+5
+00:00:08,715 --> 00:00:08,717
+1. Statement - return null
+
+6
+00:00:08,728 --> 00:00:08,729
+13. maximizeWindow
+
+7
+00:00:08,822 --> 00:00:08,824
+5. callTestCase
+
+8
+00:00:09,009 --> 00:00:09,010
+1. click
+
+9
+00:00:09,291 --> 00:00:09,292
+5. setText
+
+10
+00:00:09,375 --> 00:00:09,376
+9. setEncryptedText
+
+11
+00:00:09,685 --> 00:00:09,687
+13. click
+
+12
+00:00:09,966 --> 00:00:09,967
+9. callTestCase
+
+13
+00:00:10,233 --> 00:00:10,234
+1. callTestCase
+
+14
+00:00:10,483 --> 00:00:10,484
+1. click
+
+15
+00:00:10,799 --> 00:00:10,800
+5. click
+
+16
+00:00:42,127 --> 00:00:42,128
+1. Statement - println(testCaseContext.getTestCaseId())
+
+17
+00:00:42,190 --> 00:00:42,190
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+18
+00:00:44,242 --> 00:00:44,242
+1. Statement - println(testCaseContext.getTestCaseId())
+
+19
+00:00:44,249 --> 00:00:44,250
+5. Statement - println(testCaseContext.getTestCaseVariables())
+

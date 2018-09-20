@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Test Consult,Chrome 68.0.3440.106,,2018-09-19 11:00:42,2018-09-19 11:01:43,"1m - 0,569s",FAILED
+,,,,,,
+Test Cases/Web/FUSE/TC/TC_NewTest,Chrome 68.0.3440.106,,2018-09-19 11:00:42,2018-09-19 11:01:42,"59,504s",FAILED
+Start listener action : sampleBeforeTestCase,Chrome 68.0.3440.106,,2018-09-19 11:00:42,2018-09-19 11:00:42,"0,012s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 11:00:43,2018-09-19 11:01:09,"25,814s",PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-19 11:01:09,2018-09-19 11:01:40,"31,286s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-09-19 11:01:40,2018-09-19 11:01:40,"0,016s",PASSED

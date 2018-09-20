@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Mobile Compleate,,,2018-09-19 11:03:07,2018-09-19 11:03:26,"19,925s",ERROR
+,,,,,,
+Test Cases/Android/TC/TC_Configuration,,,2018-09-19 11:03:07,2018-09-19 11:03:10,"3,034s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-19 11:03:07,2018-09-19 11:03:07,"0,020s",PASSED
+callTestCase,,,2018-09-19 11:03:07,2018-09-19 11:03:08,"0,468s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-19 11:03:08,2018-09-19 11:03:08,"0,071s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_FUSEConfig,,,2018-09-19 11:03:10,2018-09-19 11:03:13,"2,541s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-19 11:03:10,2018-09-19 11:03:10,"0,018s",PASSED
+callTestCase,,,2018-09-19 11:03:10,2018-09-19 11:03:10,"0,252s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-19 11:03:10,2018-09-19 11:03:10,"0,023s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_Historico,,,2018-09-19 11:03:13,2018-09-19 11:03:15,"2,301s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-19 11:03:13,2018-09-19 11:03:13,"0,038s",PASSED
+callTestCase,,,2018-09-19 11:03:13,2018-09-19 11:03:13,"0,085s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-19 11:03:13,2018-09-19 11:03:13,"0,021s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_HistoricoAfterAnalisys,,,2018-09-19 11:03:15,2018-09-19 11:03:17,"2,410s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-19 11:03:15,2018-09-19 11:03:15,"0,013s",PASSED
+callTestCase,,,2018-09-19 11:03:15,2018-09-19 11:03:15,"0,116s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-19 11:03:15,2018-09-19 11:03:15,"0,018s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_LoginApp,,,2018-09-19 11:03:17,2018-09-19 11:03:20,"2,264s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-19 11:03:17,2018-09-19 11:03:17,"0,012s",PASSED
+callTestCase,,,2018-09-19 11:03:17,2018-09-19 11:03:17,"0,076s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-19 11:03:17,2018-09-19 11:03:17,"0,011s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_Users,,,2018-09-19 11:03:20,2018-09-19 11:03:22,"2,324s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-19 11:03:20,2018-09-19 11:03:20,"0,010s",PASSED
+callTestCase,,,2018-09-19 11:03:20,2018-09-19 11:03:20,"0,095s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-19 11:03:20,2018-09-19 11:03:20,"0,038s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_VUE,,,2018-09-19 11:03:22,2018-09-19 11:03:24,"2,272s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-19 11:03:22,2018-09-19 11:03:22,"0,020s",PASSED
+callTestCase,,,2018-09-19 11:03:22,2018-09-19 11:03:22,"0,086s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-19 11:03:22,2018-09-19 11:03:22,"0,017s",PASSED
+,,,,,,
+Test Cases/Android/TC/TC_VUE_NewAnalisys,,,2018-09-19 11:03:24,2018-09-19 11:03:26,"2,284s",ERROR
+Start listener action : sampleBeforeTestCase,,,2018-09-19 11:03:24,2018-09-19 11:03:24,"0,014s",PASSED
+callTestCase,,,2018-09-19 11:03:24,2018-09-19 11:03:24,"0,117s",FAILED
+Start listener action : sampleAfterTestCase,,,2018-09-19 11:03:24,2018-09-19 11:03:24,"0,021s",PASSED

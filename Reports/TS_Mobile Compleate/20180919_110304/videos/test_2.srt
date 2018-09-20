@@ -1,0 +1,24 @@
+1
+00:00:00,121 --> 00:00:00,125
+1. callTestCase
+
+2
+00:00:00,308 --> 00:00:00,314
+1. startApplication
+
+3
+00:00:00,432 --> 00:00:00,433
+1. Statement - println(testCaseContext.getTestCaseId())
+
+4
+00:00:00,446 --> 00:00:00,448
+5. Statement - println(testCaseContext.getTestCaseStatus())
+
+5
+00:00:02,530 --> 00:00:02,531
+1. Statement - println(testCaseContext.getTestCaseId())
+
+6
+00:00:02,546 --> 00:00:02,548
+5. Statement - println(testCaseContext.getTestCaseVariables())
+

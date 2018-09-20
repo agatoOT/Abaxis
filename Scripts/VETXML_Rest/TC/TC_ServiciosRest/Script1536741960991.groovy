@@ -19,5 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('VETXML_REST/POST Order FUSE'))
+WebUI.callTestCase(findTestCase('VETXML_Rest/LIB/Post Order Fuse'), [('response') : ''], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('VETXML_Rest/LIB/Get Order Status'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('VETXML_Rest/LIB/Get Global Order Status'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Global Order Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1065009a-c73b-42a0-90b3-0929521e803f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e2251e92-62a8-4b9e-bd88-6c02b05749df</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
+</TestCaseEntity>
