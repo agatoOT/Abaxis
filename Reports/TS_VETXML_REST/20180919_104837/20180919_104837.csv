@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-TS_VETXML_REST,,,2018-09-19 10:48:39,2018-09-19 10:48:44,"5,149s",PASSED
-,,,,,,
-Test Cases/VETXML_Rest/TC/TC_ServiciosRest,,,2018-09-19 10:48:39,2018-09-19 10:48:44,"4,694s",PASSED
-Start listener action : sampleBeforeTestCase,,,2018-09-19 10:48:39,2018-09-19 10:48:39,"0,015s",PASSED
-callTestCase,,,2018-09-19 10:48:40,2018-09-19 10:48:41,"1,413s",PASSED
-callTestCase,,,2018-09-19 10:48:41,2018-09-19 10:48:42,"0,555s",PASSED
-Start listener action : sampleAfterTestCase,,,2018-09-19 10:48:42,2018-09-19 10:48:42,"0,016s",PASSED
