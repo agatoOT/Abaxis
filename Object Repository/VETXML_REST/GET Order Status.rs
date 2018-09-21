@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Order VUE</name>
+   <name>GET Order Status</name>
    <tag></tag>
-   <elementGuidId>6798ac7f-7723-43b6-aa97-97e9fc4d1a49</elementGuidId>
+   <elementGuidId>8bd5515a-c82d-47c8-a9a9-0aeac99c7817</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
@@ -29,7 +29,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://192.168.1.150:8080/vetsync/v1/orders/</restUrl>
+   <restUrl>http://192.168.1.150:8080/vetsync/v1/orders/${orderID}/status</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -41,6 +41,13 @@
       <id>81d9ac22-7e12-4d2a-b705-78c4828ade5a</id>
       <masked>false</masked>
       <name>url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.PracticeID</defaultValue>
+      <description></description>
+      <id>059732dd-f105-4038-8cf7-17eecf2911fb</id>
+      <masked>false</masked>
+      <name>orderID</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

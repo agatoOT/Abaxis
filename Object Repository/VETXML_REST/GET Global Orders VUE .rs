@@ -29,7 +29,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://192.168.1.150:8080/vetsync/v1/orders/VUEOrder12350/status</restUrl>
+   <restUrl>http://192.168.1.150:8080/vetsync/v1/${PracticeID}/orders/status</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -48,6 +48,13 @@
       <id>e610bee1-5dbb-49d0-b44b-393c45c5dea1</id>
       <masked>false</masked>
       <name>response</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.PracticeID</defaultValue>
+      <description></description>
+      <id>ebb47b96-9a86-4a81-a225-0678c80ef854</id>
+      <masked>false</masked>
+      <name>PracticeID</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
