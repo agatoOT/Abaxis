@@ -20,9 +20,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-response = WS.sendRequest(findTestObject('VETXML_REST/POST Order Status A', [('url') : GlobalVariable.BE_url]))
+response = WS.sendRequest(findTestObject('VETXML_REST/POST Order Status A', [('url') : GlobalVariable.BE_url, ('PracticeID') : GlobalVariable.PracticeID]))
 
 WS.verifyResponseStatusCode(response, 200)
 
-not_run: WS.verifyElementText(response, 'client_order_id', 'WAITING-FOR-SAMPLE')
+not_run: WS.verifyElementText(response, GlobalVariable.PracticeID, GlobalVariable.PracticeID_Text)
 

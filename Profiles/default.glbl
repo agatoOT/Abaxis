@@ -9,4 +9,14 @@
       <initValue>'http://192.168.1.150:8080/vetsync/v1/'</initValue>
       <name>BE_url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Auto12383'</initValue>
+      <name>PracticeID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PracticeID'</initValue>
+      <name>PracticeID_Text</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
