@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Web_FUSE,Firefox 62.0,,2018-09-21 10:53:35,2018-09-21 10:54:36,"1m - 0,943s",FAILED
+,,,,,,
+Test Cases/Web/FUSE/TC/4.FUSE Webapp - Creacion de un Owner,Firefox 62.0,,2018-09-21 10:53:36,2018-09-21 10:54:21,"45,449s",FAILED
+Start listener action : sampleBeforeTestCase,Firefox 62.0,,2018-09-21 10:53:36,2018-09-21 10:53:36,"0,013s",PASSED
+callTestCase,Firefox 62.0,,2018-09-21 10:53:36,2018-09-21 10:53:46,"9,558s",PASSED
+callTestCase,Firefox 62.0,,2018-09-21 10:53:46,2018-09-21 10:53:47,"1,082s",PASSED
+callTestCase,Firefox 62.0,,2018-09-21 10:53:47,2018-09-21 10:54:19,"32,400s",FAILED
+Start listener action : sampleAfterTestCase,Firefox 62.0,,2018-09-21 10:54:19,2018-09-21 10:54:19,"0,021s",PASSED
+,,,,,,
+Test Cases/Web/FUSE/TC/6.FUSE Webapp - Solicitar un analisis un Owner,Firefox 62.0,,2018-09-21 10:54:21,2018-09-21 10:54:36,"14,986s",PASSED
+Start listener action : sampleBeforeTestCase,Firefox 62.0,,2018-09-21 10:54:21,2018-09-21 10:54:21,"0,019s",PASSED
+callTestCase,Firefox 62.0,,2018-09-21 10:54:21,2018-09-21 10:54:32,"10,733s",PASSED
+callTestCase,Firefox 62.0,,2018-09-21 10:54:32,2018-09-21 10:54:33,"0,746s",PASSED
+callTestCase,Firefox 62.0,"
+",2018-09-21 10:54:33,2018-09-21 10:54:33,"0,537s",PASSED
+callTestCase,Firefox 62.0,,2018-09-21 10:54:33,2018-09-21 10:54:34,"0,697s",PASSED
+Start listener action : sampleAfterTestCase,Firefox 62.0,,2018-09-21 10:54:34,2018-09-21 10:54:34,"0,025s",PASSED

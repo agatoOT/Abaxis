@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_VETXML_REST" time="9" tests="2" failures="0" errors="0">
+   <testsuite name="TS_VETXML_REST" tests="2" failures="0" errors="0" time="9" timestamp="2018-09-21 11:05:34" hostname="Agato - 192.168.1.13" id="Test Suites/TS_VETXML_REST">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_VETXML_REST\\20180921_110532"/>
+         <property name="logFiles" value="C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_VETXML_REST\\20180921_110532\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Agato - 192.168.1.13"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+      </properties>
+      <testcase name="Test Cases/VETXML_Rest/TC/1.VETXML - Solitud de consulta de un TEST de un paciente (VS2, VSPRO, HM5)" classname="Test Cases/VETXML_Rest/TC/1.VETXML - Solitud de consulta de un TEST de un paciente (VS2, VSPRO, HM5)" status="PASSED">
+         <system-out><![CDATA[2018-09-21 11:05:34 - [TEST_CASE][PASSED] - Test Cases/VETXML_Rest/TC/1.VETXML - Solitud de consulta de un TEST de un paciente (VS2, VSPRO, HM5): Test Cases/VETXML_Rest/TC/1.VETXML - Solitud de consulta de un TEST de un paciente (VS2, VSPRO, HM5)
+
+2018-09-21 11:05:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-21 11:05:34 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-21 11:05:34 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-21 11:05:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/VETXML_Rest/LIB/Post Order Fuse' successfully
+
+2018-09-21 11:05:35 - [TEST_CASE][PASSED] - Test Cases/VETXML_Rest/LIB/Post Order Fuse: Test Cases/VETXML_Rest/LIB/Post Order Fuse
+
+2018-09-21 11:05:35 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VETXML_REST/POST Order Status A, [url:internal.GlobalVariable.BE_url, PracticeID:internal.GlobalVariable.PracticeID])): Send request successfully
+
+2018-09-21 11:05:37 - [MESSAGE][PASSED] - Send request successfully
+
+2018-09-21 11:05:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-09-21 11:05:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-09-21 11:05:37 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-09-21 11:05:37 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-09-21 11:05:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/VETXML_Rest/LIB/Post Order Fuse' successfully
+
+2018-09-21 11:05:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-21 11:05:37 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-21 11:05:37 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VETXML_Rest/TC/2.FUSE Webapp - Verificar el estado" classname="Test Cases/VETXML_Rest/TC/2.FUSE Webapp - Verificar el estado" status="PASSED">
+         <system-out><![CDATA[2018-09-21 11:05:40 - [TEST_CASE][PASSED] - Test Cases/VETXML_Rest/TC/2.FUSE Webapp - Verificar el estado: Test Cases/VETXML_Rest/TC/2.FUSE Webapp - Verificar el estado
+
+2018-09-21 11:05:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-21 11:05:40 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-21 11:05:40 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-21 11:05:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/VETXML_Rest/LIB/Get Order Status' successfully
+
+2018-09-21 11:05:40 - [TEST_CASE][PASSED] - Test Cases/VETXML_Rest/LIB/Get Order Status: Test Cases/VETXML_Rest/LIB/Get Order Status
+
+2018-09-21 11:05:40 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(VETXML_REST/GET Order Status, [url:internal.GlobalVariable.BE_url, orderID:internal.GlobalVariable.PracticeID])): Send request successfully
+
+2018-09-21 11:05:41 - [MESSAGE][PASSED] - Send request successfully
+
+2018-09-21 11:05:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-09-21 11:05:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-09-21 11:05:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/VETXML_Rest/LIB/Get Order Status' successfully
+
+2018-09-21 11:05:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-21 11:05:41 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-21 11:05:41 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-21 11:05:34 - [TEST_SUITE][PASSED] - TS_VETXML_REST: Test Cases/VETXML_Rest/TC/2.FUSE Webapp - Verificar el estado]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

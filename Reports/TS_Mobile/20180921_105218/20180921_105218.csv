@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Mobile,,,2018-09-21 10:55:37,2018-09-21 10:58:44,"3m - 6,892s",PASSED
+,,,,,,
+Test Cases/Android/TC/8.VUE-APP - SINCRONIZAR con el FUSE y VUE,,,2018-09-21 10:55:38,2018-09-21 10:58:44,"3m - 6,491s",PASSED
+Start listener action : sampleBeforeTestCase,,,2018-09-21 10:55:38,2018-09-21 10:55:38,"0,009s",PASSED
+callTestCase,,,2018-09-21 10:55:38,2018-09-21 10:56:51,"1m - 13,469s",PASSED
+callTestCase,,,2018-09-21 10:56:51,2018-09-21 10:57:04,"12,818s",PASSED
+callTestCase,,,2018-09-21 10:57:04,2018-09-21 10:57:05,"0,548s",PASSED
+callTestCase,,,2018-09-21 10:57:05,2018-09-21 10:57:24,"19,537s",PASSED
+callTestCase,,,2018-09-21 10:57:24,2018-09-21 10:58:38,"1m - 13,428s",PASSED
+callTestCase,,,2018-09-21 10:58:38,2018-09-21 10:58:42,"4,313s",PASSED
+Start listener action : sampleAfterTestCase,,,2018-09-21 10:58:42,2018-09-21 10:58:42,"0,013s",PASSED

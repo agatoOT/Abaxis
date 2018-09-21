@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Web_BO" time="32" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Web_BO" tests="2" failures="0" errors="0" time="32" timestamp="2018-09-21 10:52:21" hostname="Agato - 192.168.1.13" id="Test Suites/TS_Web_BO">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_Web_BO\\20180921_105217"/>
+         <property name="logFiles" value="C:\\Users\\Agato\\git\\Abaxis\\Reports\\TS_Web_BO\\20180921_105217\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Agato - 192.168.1.13"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="143a39db488821bd8683f62232de2a2b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web/BO VUE/TC/1.FUSE BO - Alta de veterinaria" classname="Test Cases/Web/BO VUE/TC/1.FUSE BO - Alta de veterinaria" status="PASSED">
+         <system-out><![CDATA[2018-09-21 10:52:21 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/TC/1.FUSE BO - Alta de veterinaria: Test Cases/Web/BO VUE/TC/1.FUSE BO - Alta de veterinaria
+
+2018-09-21 10:52:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-21 10:52:21 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-21 10:52:21 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-21 10:52:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/OpenBrowser' successfully
+
+2018-09-21 10:52:21 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/OpenBrowser: Test Cases/Web/BO VUE/LIB/OpenBrowser
+
+2018-09-21 10:52:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-21 10:52:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-21 10:52:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vueint-public.opentrends.net/vetscan-vue' successfully
+
+2018-09-21 10:52:29 - [MESSAGE][PASSED] - Navigate to 'https://vueint-public.opentrends.net/vetscan-vue' successfully
+
+2018-09-21 10:52:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-21 10:52:29 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-21 10:52:29 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-21 10:52:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-21 10:52:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-21 10:52:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-21 10:52:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/OpenBrowser' successfully
+
+2018-09-21 10:52:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/Login' successfully
+
+2018-09-21 10:52:30 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/Login: Test Cases/Web/BO VUE/LIB/Login
+
+2018-09-21 10:52:31 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/input_LOG IN_j_username'
+
+2018-09-21 10:52:31 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/input_LOG IN_j_username'
+
+2018-09-21 10:52:31 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/input_LOG IN_j_password'
+
+2018-09-21 10:52:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/input_LOG IN_j_password'
+
+2018-09-21 10:52:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/div_LOG IN' is clicked on
+
+2018-09-21 10:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/div_LOG IN' is clicked on
+
+2018-09-21 10:52:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/Login' successfully
+
+2018-09-21 10:52:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/MenuBara/MenuBar- Clinics' successfully
+
+2018-09-21 10:52:32 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/MenuBara/MenuBar- Clinics: Test Cases/Web/BO VUE/LIB/MenuBara/MenuBar- Clinics
+
+2018-09-21 10:52:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/Menus/Clinics' successfully
+
+2018-09-21 10:52:32 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/Menus/Clinics: Test Cases/Web/BO VUE/LIB/Menus/Clinics
+
+2018-09-21 10:52:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/a_Clinics' is clicked on
+
+2018-09-21 10:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/a_Clinics' is clicked on
+
+2018-09-21 10:52:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/Menus/Clinics' successfully
+
+2018-09-21 10:52:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/MenuBara/MenuBar- Clinics' successfully
+
+2018-09-21 10:52:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/CloseBrowser' successfully
+
+2018-09-21 10:52:33 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/CloseBrowser: Test Cases/Web/BO VUE/LIB/CloseBrowser
+
+2018-09-21 10:52:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-21 10:52:34 - [MESSAGE][PASSED] - Browser is closed
+
+2018-09-21 10:52:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/CloseBrowser' successfully
+
+2018-09-21 10:52:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-21 10:52:34 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-21 10:52:34 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/BO VUE/TC/2.FUSE BO - Crear usuario de veterinaria" classname="Test Cases/Web/BO VUE/TC/2.FUSE BO - Crear usuario de veterinaria" status="PASSED">
+         <system-out><![CDATA[2018-09-21 10:52:36 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/TC/2.FUSE BO - Crear usuario de veterinaria: Test Cases/Web/BO VUE/TC/2.FUSE BO - Crear usuario de veterinaria
+
+2018-09-21 10:52:36 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-21 10:52:36 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-21 10:52:36 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-09-21 10:52:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/OpenBrowser' successfully
+
+2018-09-21 10:52:36 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/OpenBrowser: Test Cases/Web/BO VUE/LIB/OpenBrowser
+
+2018-09-21 10:52:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-21 10:52:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-21 10:52:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://vueint-public.opentrends.net/vetscan-vue' successfully
+
+2018-09-21 10:52:41 - [MESSAGE][PASSED] - Navigate to 'https://vueint-public.opentrends.net/vetscan-vue' successfully
+
+2018-09-21 10:52:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-21 10:52:41 - [TEST_CASE][PASSED] - Test Cases/Web/Delay: Test Cases/Web/Delay
+
+2018-09-21 10:52:41 - [TEST_STEP][PASSED] - Statement - return null: null
+
+2018-09-21 10:52:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/Delay' successfully
+
+2018-09-21 10:52:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-21 10:52:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-21 10:52:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/OpenBrowser' successfully
+
+2018-09-21 10:52:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/Login' successfully
+
+2018-09-21 10:52:43 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/Login: Test Cases/Web/BO VUE/LIB/Login
+
+2018-09-21 10:52:43 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/input_LOG IN_j_username'
+
+2018-09-21 10:52:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/input_LOG IN_j_username'
+
+2018-09-21 10:52:43 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/input_LOG IN_j_password'
+
+2018-09-21 10:52:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/input_LOG IN_j_password'
+
+2018-09-21 10:52:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/div_LOG IN' is clicked on
+
+2018-09-21 10:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/div_LOG IN' is clicked on
+
+2018-09-21 10:52:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/Login' successfully
+
+2018-09-21 10:52:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/Menus/Clinics' successfully
+
+2018-09-21 10:52:44 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/Menus/Clinics: Test Cases/Web/BO VUE/LIB/Menus/Clinics
+
+2018-09-21 10:52:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/a_Clinics' is clicked on
+
+2018-09-21 10:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/a_Clinics' is clicked on
+
+2018-09-21 10:52:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/Menus/Clinics' successfully
+
+2018-09-21 10:52:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/Nueva Clinica' successfully
+
+2018-09-21 10:52:44 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/Nueva Clinica: Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/Nueva Clinica
+
+2018-09-21 10:52:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/a_New Clinic' is clicked on
+
+2018-09-21 10:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/a_New Clinic' is clicked on
+
+2018-09-21 10:52:45 - [TEST_STEP][PASSED] - setText: Text 'Auto' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Name _name'
+
+2018-09-21 10:52:45 - [MESSAGE][PASSED] - Text 'Auto' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Name _name'
+
+2018-09-21 10:52:45 - [TEST_STEP][PASSED] - setText: Text 'VFU000033' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_License number _licenseN'
+
+2018-09-21 10:52:45 - [MESSAGE][PASSED] - Text 'VFU000033' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_License number _licenseN'
+
+2018-09-21 10:52:45 - [TEST_STEP][PASSED] - setText: Text '66666666' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Phone number_phoneNumber'
+
+2018-09-21 10:52:45 - [MESSAGE][PASSED] - Text '66666666' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Phone number_phoneNumber'
+
+2018-09-21 10:52:45 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Country _country'
+
+2018-09-21 10:52:45 - [MESSAGE][PASSED] - Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Country _country'
+
+2018-09-21 10:52:45 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_State _state'
+
+2018-09-21 10:52:46 - [MESSAGE][PASSED] - Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_State _state'
+
+2018-09-21 10:52:46 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_City_city'
+
+2018-09-21 10:52:46 - [MESSAGE][PASSED] - Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_City_city'
+
+2018-09-21 10:52:46 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Address_address'
+
+2018-09-21 10:52:46 - [MESSAGE][PASSED] - Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Address_address'
+
+2018-09-21 10:52:46 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Postcode_postcode'
+
+2018-09-21 10:52:46 - [MESSAGE][PASSED] - Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Postcode_postcode'
+
+2018-09-21 10:52:46 - [TEST_STEP][PASSED] - setText: Text 'aaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Name _admin1Name'
+
+2018-09-21 10:52:46 - [MESSAGE][PASSED] - Text 'aaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Name _admin1Name'
+
+2018-09-21 10:52:46 - [TEST_STEP][PASSED] - setText: Text 'agato@opentrends.net' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Email _admin1Email'
+
+2018-09-21 10:52:46 - [MESSAGE][PASSED] - Text 'agato@opentrends.net' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Email _admin1Email'
+
+2018-09-21 10:52:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/Nueva Clinica' successfully
+
+2018-09-21 10:52:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/CancelarClinica' successfully
+
+2018-09-21 10:52:47 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/CancelarClinica: Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/CancelarClinica
+
+2018-09-21 10:52:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/a_Cancel' is clicked on
+
+2018-09-21 10:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/a_Cancel' is clicked on
+
+2018-09-21 10:52:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/CancelarClinica' successfully
+
+2018-09-21 10:52:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/Nueva Clinica' successfully
+
+2018-09-21 10:52:47 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/Nueva Clinica: Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/Nueva Clinica
+
+2018-09-21 10:52:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/a_New Clinic' is clicked on
+
+2018-09-21 10:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/a_New Clinic' is clicked on
+
+2018-09-21 10:52:48 - [TEST_STEP][PASSED] - setText: Text 'Auto' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Name _name'
+
+2018-09-21 10:52:48 - [MESSAGE][PASSED] - Text 'Auto' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Name _name'
+
+2018-09-21 10:52:48 - [TEST_STEP][PASSED] - setText: Text 'VFU000033' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_License number _licenseN'
+
+2018-09-21 10:52:48 - [MESSAGE][PASSED] - Text 'VFU000033' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_License number _licenseN'
+
+2018-09-21 10:52:48 - [TEST_STEP][PASSED] - setText: Text '66666666' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Phone number_phoneNumber'
+
+2018-09-21 10:52:48 - [MESSAGE][PASSED] - Text '66666666' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Phone number_phoneNumber'
+
+2018-09-21 10:52:48 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Country _country'
+
+2018-09-21 10:52:48 - [MESSAGE][PASSED] - Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Country _country'
+
+2018-09-21 10:52:48 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_State _state'
+
+2018-09-21 10:52:48 - [MESSAGE][PASSED] - Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_State _state'
+
+2018-09-21 10:52:48 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_City_city'
+
+2018-09-21 10:52:49 - [MESSAGE][PASSED] - Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_City_city'
+
+2018-09-21 10:52:49 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Address_address'
+
+2018-09-21 10:52:49 - [MESSAGE][PASSED] - Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Address_address'
+
+2018-09-21 10:52:49 - [TEST_STEP][PASSED] - setText: Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Postcode_postcode'
+
+2018-09-21 10:52:49 - [MESSAGE][PASSED] - Text 'aaaaaaaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Postcode_postcode'
+
+2018-09-21 10:52:49 - [TEST_STEP][PASSED] - setText: Text 'aaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Name _admin1Name'
+
+2018-09-21 10:52:49 - [MESSAGE][PASSED] - Text 'aaaaa' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Name _admin1Name'
+
+2018-09-21 10:52:49 - [TEST_STEP][PASSED] - setText: Text 'agato@opentrends.net' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Email _admin1Email'
+
+2018-09-21 10:52:49 - [MESSAGE][PASSED] - Text 'agato@opentrends.net' is set on object 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/input_Email _admin1Email'
+
+2018-09-21 10:52:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/Nueva Clinica' successfully
+
+2018-09-21 10:52:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/AceptarClinica' successfully
+
+2018-09-21 10:52:49 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/AceptarClinica: Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/AceptarClinica
+
+2018-09-21 10:52:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/button_Register' is clicked on
+
+2018-09-21 10:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/WEB/BO VUE/WF1/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/Page_VetScan VUE - Backoffice/button_Register' is clicked on
+
+2018-09-21 10:52:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/MenuBara/NuevaClinica/AceptarClinica' successfully
+
+2018-09-21 10:52:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Web/BO VUE/LIB/CloseBrowser' successfully
+
+2018-09-21 10:52:50 - [TEST_CASE][PASSED] - Test Cases/Web/BO VUE/LIB/CloseBrowser: Test Cases/Web/BO VUE/LIB/CloseBrowser
+
+2018-09-21 10:52:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-21 10:52:51 - [MESSAGE][PASSED] - Browser is closed
+
+2018-09-21 10:52:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web/BO VUE/LIB/CloseBrowser' successfully
+
+2018-09-21 10:52:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-09-21 10:52:51 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-09-21 10:52:51 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-21 10:52:21 - [TEST_SUITE][PASSED] - TS_Web_BO: Test Cases/Web/BO VUE/TC/2.FUSE BO - Crear usuario de veterinaria]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

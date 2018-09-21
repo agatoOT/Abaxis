@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_VETXML_REST,,,2018-09-21 10:39:37,2018-09-21 10:39:46,"9,554s",PASSED
+,,,,,,
+"Test Cases/VETXML_Rest/TC/1.VETXML - Solitud de consulta de un TEST de un paciente (VS2, VSPRO, HM5) a",,,2018-09-21 10:39:37,2018-09-21 10:39:42,"4,897s",PASSED
+Start listener action : sampleBeforeTestCase,,,2018-09-21 10:39:37,2018-09-21 10:39:37,"0,022s",PASSED
+callTestCase,,,2018-09-21 10:39:37,2018-09-21 10:39:40,"2,463s",PASSED
+Start listener action : sampleAfterTestCase,,,2018-09-21 10:39:40,2018-09-21 10:39:40,"0,025s",PASSED
+,,,,,,
+Test Cases/VETXML_Rest/TC/2.FUSE Webapp - Verificar el estado,,,2018-09-21 10:39:42,2018-09-21 10:39:46,"4,192s",PASSED
+Start listener action : sampleBeforeTestCase,,,2018-09-21 10:39:42,2018-09-21 10:39:42,"0,019s",PASSED
+callTestCase,,,2018-09-21 10:39:43,2018-09-21 10:39:44,"1,297s",PASSED
+Start listener action : sampleAfterTestCase,,,2018-09-21 10:39:44,2018-09-21 10:39:44,"0,173s",PASSED
