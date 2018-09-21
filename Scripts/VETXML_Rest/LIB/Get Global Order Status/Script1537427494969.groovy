@@ -13,9 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('VETXML_REST/GET Global Orders VUE ', [('url') : GlobalVariable.BE_url]))
+response = WS.sendRequest(findTestObject('VETXML_REST/GET Global Orders VUE ', [('url') : GlobalVariable.BE_url, ('response') : ''
+            , ('PractiseID') : GlobalVariable.PracticeID]))
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, '', '')
+not_run: WS.verifyElementPropertyValue(response, GlobalVariable.PracticeID_Text, GlobalVariable.PracticeID)
 

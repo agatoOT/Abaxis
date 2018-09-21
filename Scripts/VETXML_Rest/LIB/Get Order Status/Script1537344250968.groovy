@@ -13,8 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('VETXML_REST/POST Order Status A', [('url') : GlobalVariable.BE_url]))
+response = WS.sendRequest(findTestObject('VETXML_REST/GET Order Status', [('url') : GlobalVariable.BE_url, ('orderID') : GlobalVariable.PracticeID]))
 
 WS.verifyResponseStatusCode(response, 200)
-
 

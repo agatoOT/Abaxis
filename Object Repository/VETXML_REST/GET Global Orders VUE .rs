@@ -29,7 +29,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://192.168.1.150:8080/vetsync/v1/${PracticeID}/orders/status</restUrl>
+   <restUrl>http://192.168.1.150:8080/vetsync/v1/orders/${PracticeID}/status</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
