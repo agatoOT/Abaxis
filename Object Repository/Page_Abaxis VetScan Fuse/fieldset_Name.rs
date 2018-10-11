@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>fieldset_Name</name>
+   <tag></tag>
+   <elementGuidId>24a252cd-47cc-4747-afcf-fe1995ee22e3</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>fieldset</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form__content</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Name                                             Owner                                                                              GenderGenderMaleFemaleMale NeuteredFemale SpayedUnknownAbbreviated history                                  SpeciesSpeciesAFRICANGRAYALLIGATORALPACCAAMAZONAMPHIBIANANTELOPEAPEBABOONBATBEARBEARDEDDRAGONBIRDBISONBOACONSTRICTORBOBCATBUFFALOBULLCAMELCATCHAMELEONCHEETAHCHICKENCHIMPANZEECHINCHILLACOCKATIELCOCKATOOCONURECOWCOYOTECROCODILECYNODEERDINGODOGDONKEYDOVEDUCKELEPHANTFERRETFLAMINGOFOALFOXFROGGECKOGERBILGIRAFFEGOATGOOSEGUINEAPIGHAMSTERHEDGEHOGHORSEIGUANAJACKALJAGUARKANGAROOKITTENLARGEMAMMALLEMURLEOPARDLIONLIZARDLLAMALOVEBIRDLYNXMACAWMINKMONITORMONKEYMOUSEMYNAHOPOSSUMOSTRICHOTHEROXPANTHERPARAKEETPARROTPIGPONYPRAIRIEDOGPRIMATEPUMAPUPPYPYTHONRABBITRACCOONRATREPTILERHESUSSALAMANDERSEALSEALIONSHEEPSKUNKSMALLMAMMALSNAKESQUIRRELSTEERTIGERTOADTORTOISETOUCANTURTLEWATERBUFFALOWOLFZEBRABreed </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dialogContent_14&quot;)/div[@class=&quot;modal__body&quot;]/form[@class=&quot;main__form form-group ng-valid-maxlength ng-valid-mindate ng-valid-maxdate ng-valid-filtered ng-valid-valid ng-valid-minlength ng-valid-required ng-dirty ng-valid-parse ng-valid-date ng-valid ng-valid-md-require-match&quot;]/fieldset[@class=&quot;form__content&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//md-dialog-content[@id='dialogContent_14']/div[2]/form/fieldset</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alejandro'])[3]/following::fieldset[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[1]/following::fieldset[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//fieldset</value>
+   </webElementXpaths>
+</WebElementEntity>

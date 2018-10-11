@@ -22,40 +22,45 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Patients_WF/Patients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/span_Reset_list-block__col'))
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/span_Reset_list-block__col'))
 
-WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/md-input-container_Name'))
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/md-input-container_Name'))
 
-WebUI.setText(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/input_Name_name'), 'Alejandro')
+WebUI.setText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/input_Patient ID_newId'), GlobalVariable.DataInfoID)
 
-WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/button_Abbreviated history_md-'))
+WebUI.setText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/input_Name_name'), GlobalVariable.DataInfoID)
 
-WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/span_12'))
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_SpeciesSpeciesAFRICANGRAYA'))
+toString()
 
-WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/md-input-container_Abbreviated'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/button_Abbreviated history_md-'))
 
-WebUI.setText(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/input_Owner_owner'), 'ale')
+not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/div_SpeciesSpeciesAFRICANGRAYA'))
 
-WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/li_Alex1 Gato'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/md-input-container_Abbreviated'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/select_SpeciesAFRICANGRAYALLIG'), 
+not_run: WebUI.setText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/input_Owner_owner'), 'ale')
+
+not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/li_Alex1 Gato'))
+
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/select_SpeciesAFRICANGRAYALLIG'), 
     'DEER', true)
 
-WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_Name'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/div_Name'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/select_GenderMaleFemaleMale Ne'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/select_GenderMaleFemaleMale Ne'), 
     'M', true)
 
-WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/div_SpeciesSpeciesAFRICANGRAYA'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/div_SpeciesSpeciesAFRICANGRAYA'))
 
-WebUI.setText(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/input_Breed_breed'), 'aaaa')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/input_Breed_breed'), 'aaaa')
 
-WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/fieldset_Name'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/fieldset_Name'))
 
-WebUI.setText(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/textarea_Abbreviated history_a'), 
-    'aaaa')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/textarea_Abbreviated history_a'), 'aaaa')
 
-WebUI.click(findTestObject('Object Repository/PruebaPatient/Page_Abaxis VetScan Fuse/span_Save'))
+WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/span_Save'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/md-input-container_Patient ID'))
 

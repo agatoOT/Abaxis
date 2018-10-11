@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-TS_Test Consult,Chrome 69.0.3497.100,,2018-09-21 11:06:28,2018-09-21 11:06:48,"19,481s",FAILED
-,,,,,,
-Test Cases/Web/FUSE/TC/6.FUSE Webapp - Solicitar un analisis un Owner,Chrome 69.0.3497.100,,2018-09-21 11:06:29,2018-09-21 11:06:47,"18,146s",FAILED
-Start listener action : sampleBeforeTestCase,Chrome 69.0.3497.100,,2018-09-21 11:06:29,2018-09-21 11:06:29,"0,013s",PASSED
-callTestCase,Chrome 69.0.3497.100,,2018-09-21 11:06:29,2018-09-21 11:06:45,"15,735s",FAILED
-Start listener action : sampleAfterTestCase,Chrome 69.0.3497.100,,2018-09-21 11:06:45,2018-09-21 11:06:45,"0,020s",PASSED

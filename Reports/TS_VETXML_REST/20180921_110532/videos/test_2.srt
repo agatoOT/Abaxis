@@ -1,4 +1,0 @@
-6
-00:00:03,306 --> 00:00:03,307
-1. Statement - println(testSuiteContext.getTestSuiteId())
-

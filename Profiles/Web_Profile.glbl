@@ -20,8 +20,8 @@
       <name>G_FUSEBO_Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>FUSE web</description>
-      <initValue>'http://192.168.1.150:8080/'</initValue>
+      <description>FUSE web Docker</description>
+      <initValue>'http://192.168.3.122:4005'</initValue>
       <name>G_FUSE_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -73,5 +73,15 @@
       <description></description>
       <initValue>'aeHFOx8jV/A='</initValue>
       <name>G_VUE_Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('PatientInfo').getValue(1, 3)</initValue>
+      <name>DataInfoID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('PatientInfo').getValue(3, 1)</initValue>
+      <name>DataInfoName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

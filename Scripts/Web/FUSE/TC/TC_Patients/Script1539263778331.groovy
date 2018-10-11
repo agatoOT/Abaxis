@@ -18,11 +18,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('WEB/BO FUSE/Page_VetScan FUSE - Backoffice/input_j_username'), GlobalVariable.G_FUSEBO_Username)
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('WEB/BO FUSE/Page_VetScan FUSE - Backoffice/input_j_password'), GlobalVariable.G_FUSEBO_Password)
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/LoginFUSE'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('WEB/BO FUSE/Page_VetScan FUSE - Backoffice/div_LOG IN'))
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Patients_WF/NewPatients'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Web/FUSE/Lib/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 

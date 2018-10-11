@@ -4,7 +4,7 @@
    <name>TS_Web_BO</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-21T10:52:17</lastRun>
+   <lastRun>2018-10-11T12:28:59</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

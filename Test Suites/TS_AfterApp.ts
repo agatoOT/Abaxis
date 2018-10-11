@@ -4,8 +4,8 @@
    <name>TS_AfterApp</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-21T10:52:18</lastRun>
-   <mailRecipient></mailRecipient>
+   <lastRun>2018-10-11T12:29:10</lastRun>
+   <mailRecipient>agato@opentrends.net;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

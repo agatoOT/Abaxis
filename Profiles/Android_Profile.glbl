@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'192.168.1.150'</initValue>
+      <initValue>'192.168.3.122:4005'</initValue>
       <name>G_FUSE_IP</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
