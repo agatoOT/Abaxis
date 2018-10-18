@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>FUSE web Docker</description>
-      <initValue>'http://192.168.3.122:4005'</initValue>
+      <initValue>'http://192.168.3.122:4005/'</initValue>
       <name>G_FUSE_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -91,7 +91,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'panel/patients/patient/'</initValue>
+      <initValue>'#/panel/patients/patient/'</initValue>
       <name>G_Url_PatientVer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -14,12 +14,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 for (def index : (0..GlobalVariable.DF_IntUsers)) {
-    ID = WebUI.concatenate((([GlobalVariable.Data_InfoID, index]) as String[]), FailureHandling.STOP_ON_FAILURE)
+    not_run: ID = WebUI.concatenate((([GlobalVariable.Data_InfoID, index]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
-    Name = WebUI.concatenate((([GlobalVariable.Data_InfoName, index]) as String[]), FailureHandling.STOP_ON_FAILURE)
+    not_run: Name = WebUI.concatenate((([GlobalVariable.Data_InfoName, index]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
-    Ver_Name = WebUI.concatenate(((['Object Repository/NewPatient/Page_Abaxis VetScan Fuse/Page_Abaxis VetScan Fuse/', GlobalVariable.DF_Name
-                , index]) as String[]), FailureHandling.STOP_ON_FAILURE)
+    not_run: Ver_Name = WebUI.concatenate(((['Object Repository/NewPatient/Page_Abaxis VetScan Fuse/Page_Abaxis VetScan Fuse/'
+                , GlobalVariable.DF_Name, index]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
     not_run: Ver_Obj = WebUI.concatenate((([GlobalVariable.prefix_Ver, GlobalVariable.Data_InfoID, index]) as String[]), 
         FailureHandling.STOP_ON_FAILURE)
@@ -32,12 +32,13 @@ for (def index : (0..GlobalVariable.DF_IntUsers)) {
 
     not_run: println(Ver_Obj)
 
-    println(Ver_Name)
+    not_run: println(Ver_Name)
 
     WebUI.navigateToUrl(Ver_Url, FailureHandling.STOP_ON_FAILURE)
 
     WebUI.delay(2)
 
     not_run: WebUI.verifyElementText(findTestObject('Page_Abaxis VetScan Fuse/h3_Alex0'), Name)
-}
+
+	}
 
