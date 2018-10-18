@@ -22,45 +22,27 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.callTestCase(findTestCase('Web/FUSE/Lib/Menus/Patients_WF/Patients'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/span_Reset_list-block__col'))
+for (def index : (0..GlobalVariable.DF_IntUsers)) {
+    WebUI.click(findTestObject('Object Repository/WEB/FUSE/WF1/Prueba3/Prueba4/Page_Abaxis VetScan Fuse/button_New Patient'))
 
-WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/md-input-container_Name'))
+    ID = WebUI.concatenate((([GlobalVariable.Data_InfoID, index]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/input_Patient ID_newId'), GlobalVariable.DataInfoID)
+    not_run: WebUI.click(findTestObject('Object Repository/WEB/FUSE/WF1/Prueba3/Page_Abaxis VetScan Fuse/input_Patient ID_newId'), 
+        FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/input_Name_name'), GlobalVariable.DataInfoID)
+    WebUI.setText(findTestObject('WEB/FUSE/WF1/Prueba3/Prueba4/Page_Abaxis VetScan Fuse/input_Patient ID_newId'), ID)
 
-WebUI.delay(5)
+    Name = WebUI.concatenate((([GlobalVariable.Data_InfoName, index]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
-toString()
+    not_run: WebUI.click(findTestObject('WEB/FUSE/WF1/Prueba3/Prueba4/Page_Abaxis VetScan Fuse/input_Name_name'), FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/button_Abbreviated history_md-'))
+    WebUI.setText(findTestObject('WEB/FUSE/WF1/Prueba3/Prueba4/Page_Abaxis VetScan Fuse/input_Name_name'), Name)
 
-not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/div_SpeciesSpeciesAFRICANGRAYA'))
+    WebUI.click(findTestObject('Object Repository/WEB/FUSE/WF1/Prueba3/Prueba4/Page_Abaxis VetScan Fuse/button_Save'))
 
-not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/md-input-container_Abbreviated'))
+    not_run: WebUI.verifyElementText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/p_A patient with this ID alrea'), 
+        'A patient with this ID already exists. Please provide another one', FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.setText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/input_Owner_owner'), 'ale')
-
-not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/li_Alex1 Gato'))
-
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/select_SpeciesAFRICANGRAYALLIG'), 
-    'DEER', true)
-
-not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/div_Name'))
-
-not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/select_GenderMaleFemaleMale Ne'), 
-    'M', true)
-
-not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/div_SpeciesSpeciesAFRICANGRAYA'))
-
-not_run: WebUI.setText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/input_Breed_breed'), 'aaaa')
-
-not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/fieldset_Name'))
-
-not_run: WebUI.setText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/textarea_Abbreviated history_a'), 'aaaa')
-
-WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/span_Save'))
-
-not_run: WebUI.click(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/md-input-container_Patient ID'))
+    WebUI.click(findTestObject('Object Repository/WEB/FUSE/WF1/Prueba3/Prueba4/Page_Abaxis VetScan Fuse/button_Cancel'))
+}
 

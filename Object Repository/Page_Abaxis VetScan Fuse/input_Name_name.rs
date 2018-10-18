@@ -4,7 +4,17 @@
    <name>input_Name_name</name>
    <tag></tag>
    <elementGuidId>f5d1b4c8-9006-4f86-ad8d-164a7528ed8e</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='name']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;name&quot;)[count(. | //input[@id = 'name' and @name = 'name' and @aria-label = 'name' and @type = 'text' and @ng-model = 'newPatientCtrl.newPatient.name' and @tabindex = '1' and @class = 'ng-pristine ng-valid md-autofocus md-input ng-empty ng-touched ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add' and @aria-invalid = 'false' and @data-ng-animate = '2']) = count(//input[@id = 'name' and @name = 'name' and @aria-label = 'name' and @type = 'text' and @ng-model = 'newPatientCtrl.newPatient.name' and @tabindex = '1' and @class = 'ng-pristine ng-valid md-autofocus md-input ng-empty ng-touched ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add' and @aria-invalid = 'false' and @data-ng-animate = '2'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +38,7 @@
       <value>name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
@@ -42,42 +52,42 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
       <value>newPatientCtrl.newPatient.name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-valid md-autofocus md-input ng-empty ng-touched ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-ng-animate</name>
       <type>Main</type>
       <value>2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

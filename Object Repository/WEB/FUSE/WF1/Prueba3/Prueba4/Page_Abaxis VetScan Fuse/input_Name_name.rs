@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Patient ID_newId</name>
+   <name>input_Name_name</name>
    <tag></tag>
-   <elementGuidId>1cff90e5-2430-4e90-91fd-b616d49dc461</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='newId']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;newId&quot;)[count(. | //input[@id = 'newId' and @name = 'newId' and @aria-label = 'Patient Id' and @type = 'text' and @ng-model = 'newPatientCtrl.newPatient.newId' and @ng-maxlength = '14' and @tabindex = '1' and @class = 'ng-pristine md-autofocus md-input ng-empty ng-invalid ng-invalid-required ng-valid-maxlength ng-touched ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-required-add ng-invalid-required-remove' and @aria-invalid = 'false' and @data-ng-animate = '2']) = count(//input[@id = 'newId' and @name = 'newId' and @aria-label = 'Patient Id' and @type = 'text' and @ng-model = 'newPatientCtrl.newPatient.newId' and @ng-maxlength = '14' and @tabindex = '1' and @class = 'ng-pristine md-autofocus md-input ng-empty ng-invalid ng-invalid-required ng-valid-maxlength ng-touched ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-required-add ng-invalid-required-remove' and @aria-invalid = 'false' and @data-ng-animate = '2'])]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>6f03654e-8d9e-42a5-b3da-ff4afc3f9a18</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,21 +18,21 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>newId</value>
+      <value>name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>newId</value>
+      <value>name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Patient Id</value>
+      <value>name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,94 +42,94 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>newPatientCtrl.newPatient.newId</value>
+      <value>newPatientCtrl.newPatient.name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-maxlength</name>
       <type>Main</type>
-      <value>14</value>
+      <value>255</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>1</value>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-pristine md-autofocus md-input ng-empty ng-invalid ng-invalid-required ng-valid-maxlength ng-touched ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-required-add ng-invalid-required-remove</value>
+      <value>ng-pristine ng-untouched ng-valid md-input ng-empty ng-valid-maxlength ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-animate ng-empty-remove</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-ng-animate</name>
       <type>Main</type>
       <value>2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;newId&quot;)</value>
+      <value>id(&quot;name&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//input[@id='newId']</value>
+      <value>//input[@id='name']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//md-dialog-content[@id='dialogContent_11']/div[2]/form/fieldset/div/div/md-input-container/input</value>
+      <value>//md-dialog-content[@id='dialogContent_11']/div[2]/form/fieldset/div/div/md-input-container[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Patient ID'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='aaaaa'])[2]/following::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Patient ID'])[1]/following::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='This field is required'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Owner'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No owners created'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//md-input-container/input</value>
+      <value>//md-input-container[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

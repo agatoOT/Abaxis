@@ -3,18 +3,8 @@
    <description></description>
    <name>input_Patient ID_newId</name>
    <tag></tag>
-   <elementGuidId>1cff90e5-2430-4e90-91fd-b616d49dc461</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='newId']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;newId&quot;)[count(. | //input[@id = 'newId' and @name = 'newId' and @aria-label = 'Patient Id' and @type = 'text' and @ng-model = 'newPatientCtrl.newPatient.newId' and @ng-maxlength = '14' and @tabindex = '1' and @class = 'ng-pristine md-autofocus md-input ng-empty ng-invalid ng-invalid-required ng-valid-maxlength ng-touched ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-required-add ng-invalid-required-remove' and @aria-invalid = 'false' and @data-ng-animate = '2']) = count(//input[@id = 'newId' and @name = 'newId' and @aria-label = 'Patient Id' and @type = 'text' and @ng-model = 'newPatientCtrl.newPatient.newId' and @ng-maxlength = '14' and @tabindex = '1' and @class = 'ng-pristine md-autofocus md-input ng-empty ng-invalid ng-invalid-required ng-valid-maxlength ng-touched ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-required-add ng-invalid-required-remove' and @aria-invalid = 'false' and @data-ng-animate = '2'])]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>0ef76a11-7870-441e-9c99-2c4fa13728d6</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +28,7 @@
       <value>newId</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
@@ -52,49 +42,49 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
       <value>newPatientCtrl.newPatient.newId</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-maxlength</name>
       <type>Main</type>
       <value>14</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine md-autofocus md-input ng-empty ng-invalid ng-invalid-required ng-valid-maxlength ng-touched ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-required-add ng-invalid-required-remove</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-ng-animate</name>
       <type>Main</type>
       <value>2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -122,7 +112,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='aaaaa'])[2]/following::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alex0'])[2]/following::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

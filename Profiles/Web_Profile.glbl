@@ -76,12 +76,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestData('PatientInfo').getValue(1, 3)</initValue>
-      <name>DataInfoID</name>
+      <initValue>5</initValue>
+      <name>DF_IntUsers</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('PatientInfo').getValue(1, 1)</initValue>
+      <name>Data_InfoID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>findTestData('PatientInfo').getValue(3, 1)</initValue>
-      <name>DataInfoName</name>
+      <name>Data_InfoName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'panel/patients/patient/'</initValue>
+      <name>G_Url_PatientVer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'h3_'</initValue>
+      <name>prefix_Ver</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
