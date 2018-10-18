@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://192.168.1.150:8080/vetsync/v1/'</initValue>
+      <initValue>'http://192.168.3.122:4005/vetsync/v1/'</initValue>
       <name>BE_url</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

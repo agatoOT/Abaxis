@@ -19,6 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('VETXML_Rest/LIB/Post Order Fuse'), [('response') : '', ('PracticeID') : GlobalVariable.PracticeID
-        , ('PracticeID_Text') : GlobalVariable.PracticeID_Text], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('VETXML_Rest/LIB/Post Order Fuse'), [('response') : '', ('PracticeID') : GlobalVariable.PracticeREF
+        , ('PracticeID_Text') : GlobalVariable.PracticeREF_Text], FailureHandling.STOP_ON_FAILURE)
 

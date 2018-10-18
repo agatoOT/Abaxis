@@ -6,17 +6,27 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://192.168.1.150:8080/vetsync/v1/'</initValue>
+      <initValue>'http://192.168.3.122:4005/vetsync/v1/'</initValue>
       <name>BE_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Auto12392'</initValue>
-      <name>PracticeID</name>
+      <initValue>'Auto12402'</initValue>
+      <name>PracticeREF</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'PracticeID'</initValue>
       <name>PracticeID_Text</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PET-16'</initValue>
+      <name>AnimalID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Prac-16'</initValue>
+      <name>PractiseID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -43,6 +43,6 @@ for (def index : (0..GlobalVariable.DF_IntUsers)) {
     not_run: WebUI.verifyElementText(findTestObject('Object Repository/Page_Abaxis VetScan Fuse/p_A patient with this ID alrea'), 
         'A patient with this ID already exists. Please provide another one', FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('Object Repository/WEB/FUSE/WF1/Prueba3/Prueba4/Page_Abaxis VetScan Fuse/button_Cancel'))
+    not_run: WebUI.click(findTestObject('Object Repository/WEB/FUSE/WF1/Prueba3/Prueba4/Page_Abaxis VetScan Fuse/button_Cancel'))
 }
 

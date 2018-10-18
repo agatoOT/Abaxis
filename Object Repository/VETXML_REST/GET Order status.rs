@@ -29,7 +29,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${url}/orders/${PracticeID}/status</restUrl>
+   <restUrl>${url}/orders/${PracticeREF}/status</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -50,11 +50,11 @@
       <name>response</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.PracticeID</defaultValue>
+      <defaultValue>GlobalVariable.PracticeREF</defaultValue>
       <description></description>
       <id>ebb47b96-9a86-4a81-a225-0678c80ef854</id>
       <masked>false</masked>
-      <name>PracticeID</name>
+      <name>PracticeREF</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

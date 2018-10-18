@@ -14,9 +14,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 response = WS.sendRequest(findTestObject('VETXML_REST/GET Order status', [('url') : GlobalVariable.BE_url, ('response') : ''
-            , ('PractiseID') : GlobalVariable.PracticeID]))
+            , ('PractiseID') : GlobalVariable.PracticeREF]))
 
 WS.verifyResponseStatusCode(response, 200)
 
-not_run: WS.verifyElementPropertyValue(response, GlobalVariable.PracticeID_Text, GlobalVariable.PracticeID)
+not_run: WS.verifyElementPropertyValue(response, GlobalVariable.PracticeREF_Text, GlobalVariable.PracticeREF)
 
