@@ -29,7 +29,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${url}/orders</restUrl>
+   <restUrl>${url}orders</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -63,6 +63,13 @@
       <masked>false</masked>
       <name>PracticeREF</name>
    </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8b9b07a8-533a-4a0f-915a-7347e6ac67be</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.ResponseObject
@@ -72,6 +79,8 @@ import com.kms.katalon.core.webservice.verification.WSResponseManager
 import groovy.json.JsonSlurper
 import internal.GlobalVariable as GlobalVariable
 
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 </verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

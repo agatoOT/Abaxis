@@ -18,15 +18,17 @@ import org.json.JSONObject as JSONObject
 import org.json.XML as XML
 import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
 
-response = WS.sendRequest(findTestObject('VETXML_REST/POST Order Status A', [('url') : GlobalVariable.BE_url, ('PracticeID') : GlobalVariable.PracticeREF
-            , ('AnimalID') : GlobalVariable.AnimalID]))
+ResponseObject response = WS.sendRequest(findTestObject('VETXML_REST/POST Order Status A', [('url') : GlobalVariable.BE_url
+            , ('PracticeID') : GlobalVariable.PracticeREF, ('AnimalID') : GlobalVariable.AnimalID]))
 
-WS.verifyResponseStatusCode(response, 200)
+int textIndent = 2
 
-not_run: println(response)
+JSONObject xmlJSONObj = XML.toJSONObject(response)
 
-not_run: WS.sendRequest(findTestObject('VETXML_REST/GET Order status', [('url') : GlobalVariable.BE_url, ('response') : ''
-            , ('PracticeID') : GlobalVariable.PracticeREF]))
+xmlJSONObj.toString(textIndent)
 
-not_run: WS.verifyResponseStatusCode('OK', 200)
+println(xmlJSONObj)
+
+
+
 
